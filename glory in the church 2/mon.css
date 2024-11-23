@@ -1,0 +1,1262 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .navbar-brand {
+    color: black;
+    font-weight: 550;
+  }
+  
+  .navbar-brand:hover {
+    color: black;
+  }
+
+  .navbar-toggler-icon, .fa-solid {
+    margin-top: 1.8rem;
+    margin-right: -01rem;
+  }
+
+  .nav-link {
+    color: black;
+  }
+
+  .nav-link:hover {
+    color: red;
+  }
+
+  .Sermonimg {
+    position: relative;
+  }
+  
+  .Sermonimg .SermonImg {
+    width: 100%;
+    height: 13rem;
+  }
+  
+  .Sermonimg .Sermon {
+    position: absolute;
+    top: 29%;
+    color: white;
+    padding-left: 1rem;
+    font-size: 20px;
+    font-weight: 550;
+  }
+  
+  .Sermonimg .SermonHome {
+    position: absolute;
+    top: 43%;
+    padding-left: 1rem;
+    font-size: 18px;
+  }
+  
+  .Sermonimg .LinkToHome {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .Sermonimg .LinkToHome:hover {
+    color: rgba(255, 0, 0, 0.434);
+  }
+
+  .OurSermon {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 6rem;
+  }
+
+  .OurSermon .pageimg {
+    width: 100%;
+    height: 370px;
+  }
+
+  .OurSermon .bgcolor {
+    background-color: rgba(128, 128, 128, 0.142);
+    width: 100%;
+    height: 600px;
+  }
+  
+  .OurSermon .wants {
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 1.7rem;
+    padding-left: 1rem;
+  }
+
+  .OurSermon .speaker {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 550;
+    padding-left: 1rem;
+    top: 50%;
+  }
+
+  .OurSermon .span1 {
+    color: rgba(219, 18, 11, 0.493);
+  }
+
+  .OurSermon .tegories {
+    position: absolute;
+    font-size: 20px;
+    padding-left: 1rem;
+    font-weight: 550;
+    top: 54.8%;
+  }
+
+  .OurSermon .Onsunday {
+    color: rgba(255, 0, 0, 0.493);
+    position: absolute;
+    font-size: 20px;
+    padding-left: 1rem;
+    font-weight: 550;
+    top: 60%;
+  }
+
+  .OurSermon .loremText {
+    position: absolute;
+    font-size: 18px;
+    padding-left: 1rem;
+    top: 66%;
+  }
+
+  .OurSermon .Watch {
+    position: absolute;
+    top: 87.5%;
+    padding-left: 8rem;
+  } 
+
+  .OurSermon .WatchLink {
+    text-decoration: none;
+    border: 1px solid red;
+    padding: 7px 12px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+  }
+
+  .OurSermon .WatchLink:hover {
+    background-color: white;
+    color: red;
+  }
+
+  .OurSermon .Download {
+    position: absolute;
+    top: 92.5%;
+    padding-left: 7.3rem;
+  }
+
+  .OurSermon .ref {
+    text-decoration: none;
+    color: red;
+    padding: 7px 12px;
+    border: 1px solid red;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  .OurSermon .ref:hover {
+    background-color: red;
+    color: white;
+  }
+
+  .Oursermon {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+  }
+
+  .Oursermon .pageimg2 {
+    width: 100%;
+    height: 370px;
+  }
+
+  .Oursermon .bgcolor1 {
+    width: 100%;
+    height: 600px;
+    background-color: rgba(128, 128, 128, 0.142);
+  }
+
+  .Oursermon  .Godwant {
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 1.7rem;
+    padding-left: 1rem;
+  }
+
+  .Oursermon .offica {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 550;
+    padding-left: 1rem;
+    top: 265%;
+    color: black;
+  }
+
+  .Oursermon  .span2 {
+    color: rgba(255, 0, 0, 0.493);
+  }
+
+  .Oursermon .gories {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 550;
+    padding-left: 1rem;
+    top: 271%;
+    color: black;
+  }
+
+  .Oursermon  .Oct {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 550;
+    padding-left: 1rem;
+    top: 278%;
+    color: rgba(255, 0, 0, 0.493);
+  }
+
+  .Oursermon  .Loremtext {
+    position: absolute;
+    font-size: 18px;
+    padding-left: 1rem;
+    top: 288%;
+    color: black;
+  }
+
+  .Oursermon .Watchsermon {
+    position: absolute;
+    top: 316%;
+    padding-left: 7rem;
+  } 
+
+  .Oursermon .Watch-Link {
+    text-decoration: none;
+    border: 1px solid red;
+    padding: 7px 12px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+  }
+
+  .Oursermon .Watch-Link:hover {
+    background-color: white;
+    color: red;
+  }
+
+  .Oursermon .Down-load {
+    position: absolute;
+    top: 322%;
+    padding-left: 6.3rem;
+  }
+
+  .Oursermon .reff {
+    text-decoration: none;
+    color: red;
+    padding: 7px 12px;
+    border: 1px solid red;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  .Oursermon .reff:hover {
+    background-color: red;
+    color: white;
+  }
+
+  .Oursermonpage {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+  }
+
+  .Oursermonpage .pageimg3 {
+    width: 100%;
+    height: 370px;
+  }
+
+  .Oursermonpage .bgcolor3 {
+    background-color: rgba(128, 128, 128, 0.142);
+    width: 100%;
+    height: 620px;
+  }
+
+  .Oursermonpage .God-want {
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 1.7rem;
+    padding-left: 1rem;
+  }
+
+  .Oursermonpage .sermonBy {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 550;
+    padding-left: 1rem;
+    top: 409%;
+    color: black;
+  }
+
+  .Oursermonpage .span3 {
+    color:  rgba(255, 0, 0, 0.493);
+  }
+
+  .Oursermonpage .ourcategories {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 550;
+    padding-left: 1rem;
+    top: 415%;
+    color: black;
+  }
+
+  .Oursermonpage .October {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 550;
+    padding-left: 1rem;
+    top: 422%;
+    color:  rgba(255, 0, 0, 0.493);
+  }
+
+  .Oursermonpage .Lorem-text {
+    position: absolute;
+    font-size: 18px;
+    padding-left: 1rem;
+    top: 430%;
+    color:  black;
+  }
+
+  .Oursermonpage .Watch-sermon {
+    position: absolute;
+    top: 462%;
+    padding-left: 7rem;
+  } 
+
+  .Oursermonpage .Watch-Links {
+    border: 1px solid red;
+    text-decoration: none;
+    padding: 7px 12px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+  }
+
+  .Oursermonpage .Watch-Links:hover {
+    background-color: white;
+    color: red;
+  }
+
+  .Oursermonpage .Downloads {
+    position: absolute;
+    top: 468%;
+    padding-left: 6.3rem;
+  }
+
+  .Oursermonpage .refLink {
+    text-decoration: none;
+    color: red;
+    padding: 7px 12px;
+    border: 1px solid red;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  .Oursermonpage .refLink:hover {
+    background-color: red;
+    color: white;
+  }
+
+  .Pagination {
+    display: inline-block;
+    margin-left: 4.5rem;
+    margin-top: 6rem;
+  }
+  
+  
+  .Pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 0.1px solid rgba(255, 0, 0, 0.247);
+    border-radius: 20px;
+  }
+  
+  .Pagination a.active {
+    background-color: rgba(255, 0, 0, 0.457);
+    color: white;
+  }
+  
+  .Sermonmail{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 0, 0, 0.628);
+    height: 15rem;
+    position: relative;
+    margin-top: 5rem;
+  }
+  
+  .Sermonmail .mymailSub  {
+    padding-top: 5rem;
+    padding-left: 1rem;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .Sermonmaill .my-Forms{
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  
+  .Sermonmail input {
+    width: 55%;
+    position: absolute;
+    top: 59%;
+    right: 40%;
+    height: 2.2rem;
+    text-indent: 5px;
+    background-color: white;
+    border: none;
+  }
+
+  .Sermonmail .Sermon-button {
+    position: absolute;
+    top: 59%;
+    left: 60%;
+    height: 2.2rem;
+    border: none;
+    padding: 7px 20px;
+  }
+  
+  .Sermonmail .SermonbuttonLink {
+    color: red;
+    text-decoration: none;
+  }
+
+  .SermonFooter {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.482);
+    margin-top: 3rem;
+  }
+  
+  .Sermon-Footer p {
+    padding-top: 1rem;
+    font-size: 20px;
+    padding-left: 1rem;
+  }
+
+ @media screen and (min-width: 1280px) {
+  .navbar{
+    background: white;
+  }
+  
+  .nav-link , .navbar-brand{
+    color: black;
+    cursor: pointer;
+  }
+  
+  .navbar-brand:hover {
+    color: black;
+  }
+  
+  .nav-link{
+    margin-right: 1em !important;
+  }  
+
+  .nav-link:hover{
+    background: white;
+    cursor: pointer;
+    color: rgba(255, 0, 0, 0.603);
+  }
+  
+  .navbar-collapse{
+    justify-content: flex-end;
+  }
+  
+  .fa-solid{
+    background:black !important;
+  }
+  
+  .Sermonimg {
+    position: relative;
+  }
+  
+  .Sermonimg .SermonImg {
+    width: 100%;
+    height: 13rem;
+  }
+  
+  .Sermonimg .Sermon {
+    position: absolute;
+    top: 29%;
+    color: white;
+    padding-left: 2rem;
+    font-size: 22px;
+    font-weight: 550;
+  }
+  
+  .Sermonimg .SermonHome {
+    position: absolute;
+    top: 43%;
+    padding-left: 2rem;
+  }
+  
+  .Sermonimg .LinkToHome {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .Sermonimg .LinkToHome:hover {
+    color: rgba(255, 0, 0, 0.434);
+  }
+
+  .OurSermon {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 6rem;
+  }
+
+  .OurSermon .pageimg {
+    width: 100%;
+    height: 400px;
+    padding-left: 1rem;
+  }
+
+  .OurSermon .bgcolor {
+    background-color: rgba(128, 128, 128, 0.142);
+    width: 118%;
+    height: 400px;
+  }
+  
+  .OurSermon .wants {
+    font-size: 27px;
+    font-weight: 600;
+    padding-top: 1.7rem;
+    padding-left: 2rem;
+  }
+
+  .OurSermon .speaker {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 550;
+    padding-left: 2rem;
+    top: 19%;
+  }
+
+  .OurSermon .span1 {
+    color: rgba(255, 0, 0, 0.493);
+  }
+
+  .OurSermon .tegories {
+    position: absolute;
+    font-size: 20px;
+    padding-left: 2rem;
+    font-weight: 550;
+    top: 29%;
+  }
+
+  .OurSermon .Onsunday {
+    color: rgba(255, 0, 0, 0.493);
+    position: absolute;
+    font-size: 20px;
+    padding-left: 2rem;
+    font-weight: 550;
+    top: 39%;
+  }
+
+  .OurSermon .loremText {
+    position: absolute;
+    font-size: 16px;
+    padding-left: 2rem;
+    top: 54%;
+  }
+
+  .OurSermon .Watch {
+    position: absolute;
+    top: 85%;
+    padding-left: 2rem;
+  } 
+
+  .OurSermon .WatchLink {
+    text-decoration: none;
+    border: 1px solid red;
+    padding: 7px 12px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+  }
+
+  .OurSermon .WatchLink:hover {
+    background-color: white;
+    color: red;
+  }
+
+  .OurSermon .Download {
+    position: absolute;
+    top: 85%;
+    padding-left: 13rem;
+  }
+
+  .OurSermon .ref {
+    text-decoration: none;
+    color: red;
+    padding: 7px 12px;
+    border: 1px solid red;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  .OurSermon .ref:hover {
+    background-color: red;
+    color: white;
+  }
+
+  .Oursermon {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6rem;
+  }
+
+  .Oursermon .pageimg2 {
+    width: 100%;
+    height: 400px;
+    padding-left: 1rem;
+  }
+
+  .Oursermon .bgcolor1 {
+    width: 118%;
+    height: 400px;
+    background-color: rgba(128, 128, 128, 0.142);
+  }
+
+  .Oursermon  .Godwant {
+    font-size: 27px;
+    font-weight: 600;
+    padding-top: 1.7rem;
+    padding-left: 2rem;
+  }
+
+  .Oursermon .offica {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 550;
+    padding-left: 2rem;
+    top: 167%;
+    color: black;
+  }
+
+  .Oursermon  .span2 {
+    color: rgba(255, 0, 0, 0.493);
+  }
+
+  .Oursermon .gories {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 550;
+    padding-left: 2rem;
+    top: 174%;
+    color: black;
+  }
+
+  .Oursermon  .Oct {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 550;
+    padding-left: 2rem;
+    top: 181%;
+    color: rgba(255, 0, 0, 0.493);
+  }
+
+  .Oursermon  .Loremtext {
+    position: absolute;
+    font-size: 16px;
+    padding-left: 2rem;
+    top: 191%;
+    color: black;
+  }
+
+  .Oursermon .Watchsermon {
+    position: absolute;
+    top: 213%;
+    padding-left: 2rem;
+  } 
+
+  .Oursermon .Watch-Link {
+    text-decoration: none;
+    border: 1px solid red;
+    padding: 7px 12px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+  }
+
+  .Oursermon .Watch-Link:hover {
+    background-color: white;
+    color: red;
+  }
+
+  .Oursermon .Down-load {
+    position: absolute;
+    top: 213%;
+    padding-left: 13rem;
+  }
+
+  .Oursermon .reff {
+    text-decoration: none;
+    color: red;
+    padding: 7px 12px;
+    border: 1px solid red;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  .Oursermon .reff:hover {
+    background-color: red;
+    color: white;
+  }
+
+  .Oursermonpage {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6rem;
+  }
+
+  .Oursermonpage .pageimg3 {
+    width: 100%;
+    height: 400px;
+    padding-left: 1rem;
+  }
+
+  .Oursermonpage .bgcolor3 {
+    background-color: rgba(128, 128, 128, 0.142);
+    width: 118%;
+    height: 400px;
+  }
+
+  .Oursermonpage .God-want {
+    font-size: 27px;
+    font-weight: 600;
+    padding-top: 1.7rem;
+    padding-left: 2rem;
+  }
+
+  .Oursermonpage .sermonBy {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 550;
+    padding-left: 2rem;
+    top: 256%;
+    color: black;
+  }
+
+  .Oursermonpage .span3 {
+    color:  rgba(255, 0, 0, 0.493);
+  }
+
+  .Oursermonpage .ourcategories {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 550;
+    padding-left: 2rem;
+    top: 263%;
+    color: black;
+  }
+
+  .Oursermonpage .October {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 550;
+    padding-left: 2rem;
+    top: 270.2%;
+    color:  rgba(255, 0, 0, 0.493);
+  }
+
+  .Oursermonpage .Lorem-text {
+    position: absolute;
+    font-size: 16px;
+    padding-left: 2rem;
+    top: 280%;
+    color:  black;
+  }
+
+  .Oursermonpage .Watch-sermon {
+    position: absolute;
+    top: 302%;
+    padding-left: 2rem;
+  } 
+
+  .Oursermonpage .Watch-Links {
+    border: 1px solid red;
+    text-decoration: none;
+    padding: 7px 12px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+  }
+
+  .Oursermonpage .Watch-Links:hover {
+    background-color: white;
+    color: red;
+  }
+
+  .Oursermonpage .Downloads {
+    position: absolute;
+    top: 302%;
+    padding-left: 13rem;
+  }
+
+  .Oursermonpage .refLink {
+    text-decoration: none;
+    color: red;
+    padding: 7px 12px;
+    border: 1px solid red;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  .Oursermonpage .refLink:hover {
+    background-color: red;
+    color: white;
+  }
+
+  .Pagination {
+    display: inline-block;
+    margin-left: 1rem;
+    margin-top: 6rem;
+  }
+  
+  .Pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 0.1px solid rgba(255, 0, 0, 0.247);
+    border-radius: 20px;
+  }
+  
+  .Pagination a.active {
+    background-color: rgba(255, 0, 0, 0.457);
+    color: white;
+  }
+  
+  .Sermonmail{
+    display: flex;
+    background-color: rgba(255, 0, 0, 0.628);
+    height: 11rem;
+    position: relative;
+    margin-top: 6rem;
+    gap: 20%;
+  }
+  
+  .Sermonmail .mymailSub  {
+    padding-top: 5rem;
+    padding-left: 3rem;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .Sermonmaill .my-Forms{
+    margin-top: 3rem;
+    /* margin-left: 1rem; */
+  }
+  
+  .Sermonmail input {
+    width: 20%;
+    position: absolute;
+    top: 44%;
+    right: 20%;
+    height: 2.2rem;
+    text-indent: 5px;
+    background-color: white;
+    border: none;
+  }
+
+  .Sermonmail .Sermon-button {
+    position: absolute;
+    top: 44%;
+    left: 80%;
+    height: 2.2rem;
+    border: none;
+    padding: 7px 20px;
+  }
+  
+  .Sermonmail .SermonbuttonLink {
+    color: red;
+    text-decoration: none;
+  }
+
+  .Sermon-Footer {
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.347);
+    margin-top: 2rem;
+  }
+  
+  .Sermon-Footer p {
+    padding-top: 1rem;
+    font-size: 20px;
+    padding-left: 1rem;
+  }
+ }
+
+ @media screen and (width: 428px) {
+  .navbar-brand {
+    font-size: 22px;
+    font-weight: 550;
+  }
+  
+  .navbar-brand:hover {
+    color: black;
+  }
+
+  .navbar-toggler-icon, .fa-solid {
+    font-size: 40px;
+    /* margin-top: 1rem; */
+    margin-right: -01rem;
+  }
+
+  .nav-link {
+    font-size: 18px;
+  }
+
+  .Sermonimg {
+    position: relative;
+  }
+  
+  .Sermonimg .SermonImg {
+    width: 100%;
+    height: 13rem;
+  }
+  
+  .Sermonimg .Sermon {
+    position: absolute;
+    top: 29%;
+    color: white;
+    padding-left: 1rem;
+    font-size: 20px;
+    font-weight: 550;
+  }
+  
+  .Sermonimg .SermonHome {
+    position: absolute;
+    top: 43%;
+    padding-left: 1rem;
+    font-size: 18px;
+  }
+  
+  .Sermonimg .LinkToHome {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .Sermonimg .LinkToHome:hover {
+    color: rgba(255, 0, 0, 0.434);
+  }
+
+  .OurSermon {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 6rem;
+  }
+
+  .OurSermon .pageimg {
+    width: 100%;
+    height: 370px;
+  }
+
+  .OurSermon .bgcolor {
+    background-color: rgba(128, 128, 128, 0.128);
+    width: 100%;
+    height: 600px;
+  }
+  
+  .OurSermon .wants {
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 1.7rem;
+    padding-left: 0.6rem;
+  }
+
+  .OurSermon .speaker {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 550;
+    padding-left: 1rem;
+    top: 50%;
+  }
+
+  .OurSermon .span1 {
+    color: rgba(255, 0, 0, 0.493);
+  }
+
+  .OurSermon .tegories {
+    position: absolute;
+    font-size: 20px;
+    padding-left: 0.9rem;
+    font-weight: 550;
+    top: 54.8%;
+  }
+
+  .OurSermon .Onsunday {
+    color: rgba(255, 0, 0, 0.493);
+    position: absolute;
+    font-size: 20px;
+    padding-left: 0.9rem;
+    font-weight: 550;
+    top: 60%;
+  }
+
+  .OurSermon .loremText {
+    position: absolute;
+    font-size: 18px;
+    padding-left: 0.8rem;
+    padding-right: 0.3rem;
+    top: 67%;
+  }
+
+  .OurSermon .Watch {
+    position: absolute;
+    top: 89%;
+    padding-left: 9rem;
+  }
+
+  .OurSermon .Download {
+    position: absolute;
+    top: 93.5%;
+    padding-left: 8.3rem;
+  }
+
+  .Oursermon {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+  }
+
+  .Oursermon .pageimg2 {
+    width: 100%;
+    height: 370px;
+  }
+
+  .Oursermon .bgcolor1 {
+    width: 100%;
+    height: 610px;
+    background-color: rgba(128, 128, 128, 0.142);
+  }
+
+  .Oursermon  .Godwant {
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 1.7rem;
+    padding-left: 0.6rem;
+  }
+
+  .Oursermon .offica {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 550;
+    padding-left: 1rem;
+    top: 239%;
+    color: black;
+  }
+
+  .Oursermon  .span2 {
+    color: rgba(255, 0, 0, 0.493);
+  }
+
+  .Oursermon .gories {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 550;
+    padding-left: 0.9rem;
+    top: 245%;
+    color: black;
+  }
+
+  .Oursermon  .Oct {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 550;
+    padding-left: 0.9rem;
+    top: 250%;
+    color: rgba(255, 0, 0, 0.493);
+  }
+
+  .Oursermon  .Loremtext {
+    position: absolute;
+    font-size: 18px;
+    padding-left: 0.8rem;
+    top: 258%;
+    padding-right: 0.3rem;
+    color: black;
+  }
+
+  .Oursermon .Watchsermon {
+    position: absolute;
+    top: 284%;
+    padding-left: 9rem;
+  } 
+
+  .Oursermon .Down-load {
+    position: absolute;
+    top: 290%;
+    padding-left: 8.3rem;
+  }
+
+  .Oursermonpage {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+  }
+
+  .Oursermonpage .pageimg3 {
+    width: 100%;
+    height: 370px;
+  }
+
+  .Oursermonpage .bgcolor3 {
+    background-color: rgba(128, 128, 128, 0.142);
+    width: 100%;
+    height: 620px;
+  }
+
+  .Oursermonpage .God-want {
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 1.7rem;
+    padding-left: 0.8rem;
+  }
+
+  .Oursermonpage .sermonBy {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 550;
+    padding-left: 1rem;
+    top: 370%;
+    color: black;
+  }
+
+  .Oursermonpage .span3 {
+    color:  rgba(255, 0, 0, 0.493);
+  }
+
+  .Oursermonpage .ourcategories {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 550;
+    padding-left: 0.9rem;
+    top: 376%;
+    color: black;
+  }
+
+  .Oursermonpage .October {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 550;
+    padding-left: 0.9rem;
+    top: 381%;
+    color:  rgba(255, 0, 0, 0.493);
+  }
+
+  .Oursermonpage .Lorem-text {
+    position: absolute;
+    font-size: 18px;
+    padding-left: 0.8rem;
+    padding-right: 0.3;
+    top: 389%;
+    color:  black;
+  }
+
+  .Oursermonpage .Watch-sermon {
+    position: absolute;
+    top: 416%;
+    padding-left: 8rem;
+  } 
+
+  .Oursermonpage .Downloads {
+    position: absolute;
+    top: 422%;
+    padding-left: 7.3rem;
+  }
+
+  .Pagination {
+    display: inline-block;
+    margin-left: 5.3rem;
+    margin-top: 6rem;
+  }
+  
+  
+  .Pagination a {
+    color: black;
+    font-size: 18px;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 0.1px solid rgba(255, 0, 0, 0.247);
+    border-radius: 20px;
+  }
+  
+  .Pagination a.active {
+    background-color: rgba(255, 0, 0, 0.457);
+    color: white;
+  }
+  
+  .Sermonmail{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 0, 0, 0.628);
+    height: 15rem;
+    position: relative;
+    margin-top: 5rem;
+  }
+  
+  .Sermonmail .mymailSub  {
+    padding-top: 5rem;
+    padding-left: 1rem;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .Sermonmaill .my-Forms{
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  
+  .Sermonmail input {
+    width: 55%;
+    position: absolute;
+    top: 59%;
+    right: 40%;
+    height: 2.2rem;
+    text-indent: 5px;
+    background-color: white;
+    border: none;
+  }
+
+  .Sermonmail .Sermon-button {
+    position: absolute;
+    top: 59%;
+    left: 60%;
+    height: 2.2rem;
+    border: none;
+    padding: 7px 20px;
+  }
+  
+  .Sermonmail .SermonbuttonLink {
+    color: red;
+    text-decoration: none;
+  }
+
+  .SermonFooter {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.482);
+    margin-top: 3rem;
+  }
+  
+  .Sermon-Footer p {
+    padding-top: 1rem;
+    font-size: 20px;
+    padding-left: 1rem;
+  }
+ }

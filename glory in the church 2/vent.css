@@ -1,0 +1,979 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+	background: white;
+}
+
+.nav-link , .navbar-brand{
+	color: black;
+	cursor: pointer;
+}
+
+.nav-link{
+	margin-right: 1em !important;
+}
+
+.nav-link:hover{
+	background: white;
+  cursor: pointer;
+	color: rgba(255, 0, 0, 0.603);
+}
+
+.navbar-collapse{
+ justify-content: flex-end;
+}
+
+.fa-solid{
+  background:black !important;
+}
+
+.Eventimg {
+  position: relative;
+}
+  
+.Eventimg .EventImg {
+  width: 100%;
+  height: 11rem;
+}
+  
+.Eventimg .EventSermon {
+  position: absolute;
+  top: 30%;
+  color: white;
+  padding-left: 2rem;
+  font-size: 25px;
+}
+  
+.Eventimg .Sermon-home {
+  position: absolute;
+  top: 49%;
+  padding-left: 2rem;
+}
+
+.Eventimg .dexLink {
+  text-decoration: none;
+  color: white;
+}
+
+.Eventimg .dexLink:hover {
+  color: rgba(255, 0, 0, 0.767);
+}
+
+.Firstdisplaypage {
+  display: flex;
+  position: relative;
+  gap: 30%;
+  padding-left: 11rem;
+  padding-top: 9rem;
+}
+
+.Firstdisplaypage .Pageimg {
+  width: 170%;
+  height: 340px;
+}
+
+.Firstdisplaypage .pageText {
+  position: absolute;
+  color: black;
+  top: 13.2%;
+  font-size: 26px;
+  letter-spacing: 6px;
+  font-weight: 550;
+  right: 68%;
+}
+
+.Firstdisplaypage .Nov {
+  position: absolute;
+  color: rgba(255, 0, 0, 0.603);
+  top: 22%;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 550;
+  right: 80.6%;
+}
+
+.Firstdisplaypage .Lagos {
+  position: absolute;
+  color: rgba(255, 0, 0, 0.603);
+  top: 22%;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 550;
+  right: 61%;
+}
+
+.Firstdisplaypage .PageImg {
+  width: 127%;
+  height: 340px;
+}
+
+.Firstdisplaypage .MeetingText {
+  position: absolute;
+  color: black;
+  top: 14%;
+  font-size: 26px;
+  font-weight: 550;
+  letter-spacing: 2px;
+  right: 20.4%;
+}
+
+.Firstdisplaypage .Time {
+  position: absolute;
+  color: rgba(255, 0, 0, 0.603);
+  top: 21.6%;
+  font-size: 16px;
+  font-weight: 550;
+  letter-spacing: 2px;
+  right: 29%;
+}
+
+.EventContainer {
+  display: flex;
+  position: relative;
+  gap: 30%;
+  padding-left: 11rem;
+  padding-top: 9rem;
+}
+
+.EventContainer .Menimg {
+  width: 170%;
+  height: 340px;
+}
+
+.EventContainer .valorText {
+  position: absolute;
+  color: black;
+  top: 13.7%;
+  font-size: 26px;
+  font-weight: 550;
+  right: 58%;
+}
+
+.EventContainer .monopo {
+  position: absolute;
+  color: rgba(255, 0, 0, 0.603);
+  top: 22%;
+  font-size: 16px;
+  font-weight: 550;
+  letter-spacing: 2px;
+  left: 10%;
+}
+
+.EventContainer .HQ {
+  position: absolute;
+  color: rgba(255, 0, 0, 0.603);
+  top: 22%;
+  font-size: 16px;
+  font-weight: 550;
+  letter-spacing: 2px;
+  left: 18%;
+}
+
+.EventContainer .womenText {
+  position: absolute;
+  color: black;
+  top: 13.7%;
+  font-size: 26px;
+  font-weight: 550;
+  letter-spacing: 2px;
+  right: 21%;
+}
+
+.EventContainer .Oct {
+  position: absolute;
+  color: rgba(255, 0, 0, 0.603);
+  top: 22%;
+  font-size: 16px;
+  font-weight: 550;
+  letter-spacing: 2px;
+  right: 37.3%;
+}
+
+.EventContainer .Location {
+  position: absolute;
+  color: rgba(255, 0, 0, 0.603);
+  top: 22%;
+  font-size: 16px;
+  font-weight: 550;
+  letter-spacing: 2px;
+  right: 18%;
+}
+
+.EventContainer .womenimg {
+  width: 180%;
+  height: 340px;
+}
+
+.Eventpagination {
+  display: inline-block;
+  margin-top: 7rem;
+  margin-left: 2rem;
+}
+
+.Eventpagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 20px;
+  border: 1px solid red;
+}
+
+.Eventpagination a.active {
+  background-color: red;
+  color: white;
+}
+
+.Eventpagination a:hover:not(.active) {background-color: white;}
+
+.Eventmail {
+  display: flex;
+  margin-top: 6rem;
+  gap: 20%;
+  background-color: rgba(255, 0, 0, 0.689);
+  height: 8rem;
+  position: relative;
+}
+
+.Eventmail .Mail-Sub {
+  padding-top: 3.4rem;
+  padding-left: 3rem;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.Eventmail .myForm {
+  margin-top: 3rem;
+}
+
+.Eventmail input {
+  width: 20.9%;
+  position: absolute;
+  right: 20%;
+  height: 2.2rem;
+  text-indent: 5px;
+  background-color: white;
+  border: none;
+}
+
+.Eventmail .Event-button {
+  position: absolute;
+  top: 37.4%;
+  left: 80%;
+  height: 2.2rem;
+  border: none;
+  padding:7px 20px;
+}
+
+.Eventmail .EventbuttonLink {
+  text-decoration: none;
+  color: rgb(241, 7, 7);
+  font-size: 14px;
+}
+
+.Eventcontact {
+  display: flex;
+}
+
+.Eventcontact .Event-contact {
+  color: black;
+  padding-top: 5rem;
+  padding-left: 1rem;
+}
+
+.Eventcontact .Nigeria {
+  color: black;
+  padding-top: 1rem;
+  font-size: 20px;
+  padding-left: 1rem;
+  font-weight: 700;
+}
+
+.Eventcontact .New-York {
+  color: gray;
+  padding-left: 1rem;
+  font-size: 20px;
+}
+
+.Eventcontact .Event-mail {
+  color: black;
+  padding-left: 1rem;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.Eventcontact .Info {
+  color: gray;
+}
+
+.Eventcontact .Eventphone {
+  color: black;
+  font-size: 20px;
+  padding-left: 1rem;
+  font-weight: 700;
+}
+
+.EventFooter {
+  display: flex;
+  background-color: rgba(128, 128, 128, 0.267);
+  margin-top: 2rem;
+}
+
+.EventFooter p {
+  padding-top: 1.7rem;
+  font-size: 20px;
+  padding-left: 1rem;
+}
+
+@media screen and (max-width: 428px) {
+  .navbar-brand {
+    font-size: 22px;
+    font-weight: 550;
+  }
+  
+  .navbar-brand:hover {
+    color: black;
+  }
+
+  .navbar-toggler-icon, .fa-solid {
+    font-size: 40px;
+    margin-top: 1.8rem;
+    margin-right: -01rem;
+  }
+
+  .nav-link {
+    font-size: 18px;
+  }
+
+  .navbar-brand {
+    font-size: 22px;
+  }
+
+  .Eventimg .EventImg {
+    width: 100%;
+    height: 15rem;
+  }
+    
+  .Eventimg .EventSermon {
+    position: absolute;
+    top: 36%;
+    color: white;
+    padding-left: 1rem;
+  }
+    
+  .Eventimg .Sermon-home {
+    position: absolute;
+    top: 50%;
+    font-size: 18px;
+    padding-left: 1rem;
+  }
+  
+  .Eventimg .dexLink {
+    text-decoration: none;
+    color: white;
+    font-weight: 550;
+  }
+  
+  .Firstdisplaypage {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 0rem;
+    padding-top: 10rem;
+  }
+  
+  .Firstdisplaypage .Pageimg {
+    width: 100%;
+    height: 440px;
+  }
+  
+  .Firstdisplaypage .pageText {
+    position: absolute;
+    color: black;
+    top: 5.8%;
+    font-size: 27px;
+    /* letter-spacing: 6px; */
+    font-weight: 550;
+    left: 18%;
+  }
+  
+  .Firstdisplaypage .Nov {
+    position: absolute;
+    color: rgba(255, 0, 0, 0.603);
+    top: 9.7%;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 550;
+    left: 2%;
+    right: -20rem;
+  }
+  
+  .Firstdisplaypage .Lagos {
+    position: absolute;
+    color: rgba(255, 0, 0, 0.603);
+    top: 9.7%;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 550;
+    right: 3%;
+  }
+  
+  .Firstdisplaypage .PageImg {
+    width: 100%;
+    height: 640px;
+    padding-top: 13rem;
+  }
+  
+  .Firstdisplaypage .MeetingText {
+    position: absolute;
+    color: black;
+    top: 57.9%;
+    font-size: 27px;
+    font-weight: 600;
+    /* letter-spacing: 2px; */
+    right: 19%;
+  }
+  
+  .Firstdisplaypage .Time {
+    position: absolute;
+    color: rgba(255, 0, 0, 0.603);
+    top: 61.7%;
+    font-size: 20px;
+    right: 27%;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+  
+  .EventContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 0rem;
+    padding-top: 13rem;
+  }
+  
+  .EventContainer .Menimg {
+    width: 100%;
+    height: 450px;
+  }
+  
+  .EventContainer .valorText {
+    position: absolute;
+    color: black;
+    top: 7.4%;
+    /* font-size: 27px; */
+    font-weight: 550;
+    line-height: 28px;
+    right: 1%;
+    left: 23%;
+    letter-spacing: 3px;
+  }
+  
+  .EventContainer .monopo {
+    position: absolute;
+    color: rgba(255, 0, 0, 0.603);
+    top: 13.5%;
+    font-size: 20px;
+    font-weight: 550;
+    letter-spacing: 2px;
+    left: 7%;
+  }
+  
+  .EventContainer .HQ {
+    position: absolute;
+    color: rgba(255, 0, 0, 0.603);
+    top: 13.5%;
+    font-size: 20px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    left: 36%;
+  }
+  
+  .EventContainer .womenText {
+    position: absolute;
+    color: black;
+    top: 63.4%;
+    font-size: 27px;
+    font-weight: 550;
+    letter-spacing: 2px;
+    right: 18%;
+  }
+  
+  .EventContainer .Oct {
+    position: absolute;
+    color: rgba(255, 0, 0, 0.603);
+    top: 67.1%;
+    font-size: 20px;
+    font-weight: 550;
+    letter-spacing: 2px;
+    right: 71%;
+  }
+  
+  .EventContainer .Location {
+    position: absolute;
+    color: rgba(255, 0, 0, 0.603);
+    top: 67.1%;
+    font-size: 20px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    right: 7%;
+  }
+  
+  .EventContainer .womenimg {
+    width: 100%;
+    height: 570px;
+    padding-top: 13rem;
+  }
+  
+  .Eventpagination {
+    display: inline-block;
+    margin-top: 6rem;
+    margin-left: 0.5rem;
+  }
+  
+  .Eventpagination a {
+    color: black;
+    padding: 8px 16px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid red;
+  }
+  
+  .Eventpagination a.active {
+    background-color: red;
+    color: white;
+  }
+  
+  .Eventpagination a:hover:not(.active) {background-color: white;}
+
+  .Eventmail {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 0, 0, 0.628);
+    height: 15rem;
+    position: relative;
+  }
+  
+  .Eventmail .Mail-Sub {
+    padding-top: 5rem;
+    padding-left: 1rem;
+    font-size: 20px;
+  }
+  
+  .Eventmail .myForm{
+    margin-top: 2rem;
+    padding-left: 4rem;
+  }
+  
+  .Eventmail input {
+    width: 55%;
+    position: absolute;
+    top: 63%;
+    right: 36%;
+    height: 2.2rem;
+    text-indent: 5px;
+    background-color: white;
+    border: none;
+  }
+
+  .Eventmail .Event-button {
+    position: absolute;
+    top: 63%;
+    left: 64%;
+    height: 2.2rem;
+    border: none;
+    padding: 7px 20px;
+    background-color: rgba(239, 231, 231, 0.865);
+}
+
+.Eventmail .EventbuttonLink {
+    text-decoration: none;
+    color: red;
+    font-size: 15px;
+}
+
+  .Eventcontact {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Eventcontact .Event-contact {
+    color: black;
+    padding-top: 5rem;
+    padding-left: 1rem;
+  }
+  
+  .Eventcontact .Nigeria {
+    color: black;
+    padding-top: 1rem;
+    font-size: 20px;
+    padding-left: 1rem;
+    font-weight: 700;
+  }
+  
+  .Eventcontact .New-York {
+    color: gray;
+    padding-left: 1rem;
+    font-size: 20px;
+  }
+  
+  .Eventcontact .Event-mail {
+    color: black;
+    padding-left: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .Eventcontact .Info {
+    color: gray;
+  }
+  
+  .Eventcontact .Eventphone {
+    color: black;
+    font-size: 20px;
+    padding-left: 1rem;
+    font-weight: 700;
+  }
+  
+  .EventFooter {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.267);
+    margin-top: 2rem;
+  }
+  
+  .EventFooter p {
+    padding-top: 1rem;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (width: 390px) {
+  .navbar-brand {
+    font-size: 22px;
+    font-weight: 550;
+  }
+  
+  .navbar-brand:hover {
+    color: black;
+  }
+
+  .navbar-toggler-icon, .fa-solid {
+    font-size: 40px;
+    margin-top: 1.8rem;
+    margin-right: -01rem;
+  }
+
+  .nav-link {
+    font-size: 18px;
+  }
+
+  .navbar-brand {
+    font-size: 22px;
+  }
+
+  .Eventimg .EventImg {
+    width: 100%;
+    height: 15rem;
+  }
+    
+  .Eventimg .EventSermon {
+    position: absolute;
+    top: 36%;
+    color: white;
+    padding-left: 1rem;
+  }
+    
+  .Eventimg .Sermon-home {
+    position: absolute;
+    top: 50%;
+    font-size: 18px;
+    padding-left: 1rem;
+  }
+  
+  .Eventimg .dexLink {
+    text-decoration: none;
+    color: white;
+    font-weight: 550;
+  }
+  
+  .Firstdisplaypage {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 0rem;
+    padding-top: 10rem;
+  }
+  
+  .Firstdisplaypage .Pageimg {
+    width: 100%;
+    height: 440px;
+  }
+  
+  .Firstdisplaypage .pageText {
+    position: absolute;
+    color: black;
+    top: 6%;
+    font-size: 27px;
+    /* letter-spacing: 6px; */
+    font-weight: 550;
+    left: 16%;
+  }
+  
+  .Firstdisplaypage .Nov {
+    position: absolute;
+    color: rgba(255, 0, 0, 0.603);
+    top: 10.2%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 550;
+    left: 2%;
+    right: -20rem;
+  }
+  
+  .Firstdisplaypage .Lagos {
+    position: absolute;
+    color: rgba(255, 0, 0, 0.603);
+    top: 10.2%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 550;
+    right: 3%;
+  }
+  
+  .Firstdisplaypage .PageImg {
+    width: 100%;
+    height: 570px;
+    padding-top: 10rem;
+  }
+  
+  .Firstdisplaypage .MeetingText {
+    position: absolute;
+    color: black;
+    top: 57.4%;
+    font-size: 27px;
+    font-weight: 600;
+    /* letter-spacing: 2px; */
+    right: 16%;
+  }
+  
+  .Firstdisplaypage .Time {
+    position: absolute;
+    color: rgba(255, 0, 0, 0.603);
+    top: 61.4%;
+    font-size: 20px;
+    right: 24%;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+  
+  .EventContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 0rem;
+    padding-top: 10rem;
+  }
+  
+  .EventContainer .Menimg {
+    width: 100%;
+    height: 450px;
+  }
+  
+  .EventContainer .valorText {
+    position: absolute;
+    color: black;
+    top: 4.3%;
+    font-size: 27px;
+    line-height: 28px;
+    font-weight: 550;
+    right: 6%;
+    left: 20%;
+  }
+  
+  .EventContainer .monopo {
+    position: absolute;
+    color: rgba(255, 0, 0, 0.603);
+    top: 10.4%;
+    font-size: 18px;
+    font-weight: 550;
+    letter-spacing: 2px;
+    left: 6.5%;
+  }
+  
+  .EventContainer .HQ {
+    position: absolute;
+    color: rgba(255, 0, 0, 0.603);
+    top: 10.4%;
+    font-size: 18px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    left: 36%;
+  }
+  
+  .EventContainer .womenText {
+    position: absolute;
+    color: black;
+    top: 57.8%;
+    font-size: 27px;
+    font-weight: 550;
+    letter-spacing: 2px;
+    right: 15%;
+  }
+  
+  .EventContainer .Oct {
+    position: absolute;
+    color: rgba(255, 0, 0, 0.603);
+    top: 62%;
+    font-size: 18px;
+    font-weight: 550;
+    letter-spacing: 2px;
+    right: 72%;
+  }
+  
+  .EventContainer .Location {
+    position: absolute;
+    color: rgba(255, 0, 0, 0.603);
+    top: 62%;
+    font-size: 18px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    right: 7.3%;
+  }
+  
+  .EventContainer .womenimg {
+    width: 100%;
+    height: 570px;
+    padding-top: 10rem;
+  }
+  
+  .Eventpagination {
+    display: inline-block;
+    margin-top: 6rem;
+    margin-left: 5.3rem;
+  }
+  
+  .Eventpagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid red;
+  }
+  
+  .Eventpagination a.active {
+    background-color: red;
+    color: white;
+  }
+  
+  .Eventpagination a:hover:not(.active) {background-color: white;}
+
+  .Eventmail {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 0, 0, 0.628);
+    height: 15rem;
+    position: relative;
+  }
+  
+  .Eventmail .Mail-Sub {
+    padding-top: 5rem;
+    padding-left: 1rem;
+    font-size: 20px;
+  }
+  
+  .Eventmail .myForm{
+    margin-top: 2rem;
+    padding-left: 4rem;
+  }
+  
+  .Eventmail input {
+    width: 55%;
+    position: absolute;
+    top: 63%;
+    right: 36%;
+    height: 2.2rem;
+    text-indent: 5px;
+    background-color: white;
+    border: none;
+  }
+
+  .Eventmail .Event-button {
+    position: absolute;
+    top: 63%;
+    left: 64%;
+    height: 2.2rem;
+    border: none;
+    padding: 7px 20px;
+    background-color: rgba(239, 231, 231, 0.865);
+}
+
+.Eventmail .EventbuttonLink {
+    text-decoration: none;
+    color: red;
+    font-size: 15px;
+}
+
+  .Eventcontact {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Eventcontact .Event-contact {
+    color: black;
+    padding-top: 5rem;
+    padding-left: 1rem;
+  }
+  
+  .Eventcontact .Nigeria {
+    color: black;
+    padding-top: 1rem;
+    font-size: 20px;
+    padding-left: 1rem;
+    font-weight: 700;
+  }
+  
+  .Eventcontact .New-York {
+    color: gray;
+    padding-left: 1rem;
+    font-size: 20px;
+  }
+  
+  .Eventcontact .Event-mail {
+    color: black;
+    padding-left: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .Eventcontact .Info {
+    color: gray;
+  }
+  
+  .Eventcontact .Eventphone {
+    color: black;
+    font-size: 20px;
+    padding-left: 1rem;
+    font-weight: 700;
+  }
+  
+  .EventFooter {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.267);
+    margin-top: 2rem;
+  }
+  
+  .EventFooter p {
+    padding-top: 1rem;
+    font-size: 20px;
+    text-align: center;
+  }
+}

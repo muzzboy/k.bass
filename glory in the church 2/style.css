@@ -1,0 +1,3551 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+	background: white;
+}
+
+.nav-link , .navbar-brand{
+	color: black;
+	cursor: pointer;
+}
+
+.navbar-brand:hover {
+  color: black;
+}
+
+.nav-link{
+	margin-right: 1em !important;
+}
+
+.nav-link:hover{
+	background: white;
+  cursor: pointer;
+	color: rgba(255, 0, 0, 0.603);
+}
+
+.navbar-collapse{
+  justify-content: flex-end;
+}
+
+.fa-solid{
+  background:black !important;
+}
+
+
+.glitchContainer {
+  position: relative;
+}
+
+.glitchContainer .Glitchimg {
+  width: 100%;    
+}
+
+.glitchContainer .Amazing-Grace {
+  position: absolute;
+  color: white;
+  top: 30%;
+  font-size: 40px;
+  padding-left: 15rem;
+  letter-spacing: 7px;
+}
+
+.glitchContainer .glitchText {
+  position: absolute;
+  top: 40%;
+  color: white;
+  font-size: 15px;
+  padding-left: 20rem;
+}
+
+.glitchContainer .joinus a {
+  position: absolute;
+  border: 1px solid red;
+  border-radius: 20px;
+  top: 340px;
+  margin-left: 32rem;
+  color: white;
+  letter-spacing: 8px;
+  font-size: larger;
+  padding: 10px 51px;
+  text-decoration: none;
+}
+
+.glitchContainer .joinus a:hover {
+  background-color: rgba(128, 0, 128, 0.26);
+}
+
+.togetherContainer {
+    display: flex;
+    position: relative; 
+}
+
+.togetherContainer .myimg {
+    width: 45%;
+    height: 90%;
+    float: right;
+    margin-left: 8rem;
+    padding-top: 6rem;
+}
+
+.togetherContainer .Togethertext {
+    padding-top: 8rem;
+    padding-left: 4rem;
+    font-size: 25px;
+    position: absolute;
+    letter-spacing: 3px;
+}
+
+.togetherContainer .God-did {
+    position: absolute;
+    top: 40%;
+    padding-left: 4rem;
+    line-height: 25px;
+}
+
+.togetherContainer .officia {
+    position: absolute;
+    top: 60%;
+    padding-left: 4rem;
+    line-height: 25px;
+}
+
+.togetherContainer .Joinwithus {
+    position: absolute;
+    top: 78%;
+    margin-left: 4rem;
+}
+
+.togetherContainer .WithUs {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+h4 {
+    color: red;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.Sufficient {
+    display: flex;
+    position: relative;
+    margin-top: 3rem;
+    height: 28.2rem;
+    background-color: rgba(128, 128, 128, 0.055);
+}
+
+.Sufficient .glitchpic {
+    width: 110%;
+    height: 450px;
+}
+
+.Sufficient .BibleExp {
+   font-size: 26px;
+   padding-top: 6rem;
+   position: absolute;
+   font-weight: 550;
+   right: 32%;
+   letter-spacing: 3px;
+}
+
+.Sufficient .Session {
+    position: absolute;
+    top: 33%;
+    right: 36.3%;
+    font-weight: 600;
+}
+
+.Sufficient span {
+    color: rgba(255, 0, 0, 0.306);
+    font-weight: 600;
+}
+
+.Sufficient .Sermons {
+    position: absolute;
+    top: 40%;
+    right: 40.4%;
+    font-weight: 600;
+    color: rgba(255, 0, 0, 0.306);
+}
+
+.Sufficient .ForGod {
+    position: absolute;
+    top: 48%;
+    padding-left: 7rem;
+    line-height: 30px;
+}
+
+.Sufficient .Excepteur {
+    position: absolute;
+    top: 63%;
+    padding-left: 7rem;
+    line-height: 30px;
+}
+
+.Sufficient .ForGod1 {
+  position: absolute;
+  top: 78%;
+  padding-left: 7rem;
+  line-height: 30px;
+}
+
+.Presence {
+    display: flex;
+    padding-top: 5rem;
+    justify-content: space-between;
+}
+
+.Presence .ExperienceText {
+    color: red;
+    padding-left: 3rem;
+    font-weight: 600;
+}
+
+.Presence .UpcoimgEvent {
+    padding-left: 3rem;
+}
+
+.Presence .veiwLink {
+    margin-right: 2rem;
+}
+
+.Presence .veiwlink {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.Homedetails  {
+    display: flex;
+    padding-top: 3rem;
+    position: relative;
+}
+
+.Homedetails .Himg {
+    width: 60%;
+    height: 57%;
+    padding-left: 1rem;
+}
+
+.Homedetails .GiveText {
+    position: absolute;
+    right: 31%;
+    letter-spacing: 3px;
+    padding-top: 1rem;
+    font-weight: 550;
+}
+
+.Homedetails .con {
+  position: absolute;
+  top: 19.5%;
+  right: 54.3%;
+}
+
+.Homedetails .name {
+    position: absolute;
+    top: 19%;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    right: 41.5%;
+}
+
+.Homedetails .names {
+    position: absolute;
+    top: 19%;
+    right: 19.3%;
+    font-size: 20px;
+}
+
+.Homedetails .con2 {
+  position: absolute;
+  top: 19.5%;
+  right: 39%;
+}
+
+.Homedetails .con3 {
+  position: absolute;
+  top: 26%;
+  right: 54.5%;
+}
+
+.Homedetails .Name {
+    position: absolute;
+    top: 26%;
+    font-weight: 500;
+    color: rgba(255, 0, 0, 0.306);
+    right: 18%;
+}
+
+.Homedetails .occaecat {
+    position: absolute;
+    top: 33%;
+    right: 13.3%;
+    line-height: 28px;
+}
+
+.Homedetails .Elink {
+    position: absolute;
+    top: 53%;
+    text-decoration: none;
+    right: 43%;
+    border-radius: 20px;
+    border: 2px solid red;
+    color: red;
+    padding: 8px 25px;
+}
+
+.Details {
+    display: flex;
+    position: relative;
+    margin-top: -13rem;
+}
+
+.Details .Dimg {
+    width: 61%;
+    height: 57%;
+    padding-left: 1rem;
+}
+
+.Details .supportText {
+    position: absolute;
+    right: 8%;
+    font-weight: 550;
+    padding-top: 1rem;
+}
+
+.Details .con4 {
+  position: absolute;
+  top: 13.5%;
+  right: 54.1%;
+}
+
+.Details .detailsname {
+    position: absolute;
+    top: 13%;
+    color: black;
+    right: 41.5%;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.Details .con5 {
+  position: absolute;
+  top: 13.4%;
+  right: 39%;
+}
+
+.Details .detailname {
+    position: absolute;
+    top: 13%;
+    right: 20%;
+    font-size: 20px;
+}
+
+.Details .con6 {
+  position: absolute;
+  top: 20%;
+  right: 54.1%;
+}
+
+.Details .OurVenue {
+    position: absolute;
+    top: 20%;
+    font-weight: 500;
+    right: 14%;
+    color: rgba(255, 0, 0, 0.306);
+}
+
+.Details .proident {
+    position: absolute;
+    top: 28%;
+    right: 13%;
+    line-height: 28px;
+}
+
+.Details .readMore {
+    position: absolute;
+    top: 49%;
+    border-radius: 20px;
+    text-decoration: none;
+    right: 43%;
+    border: 2px solid red;
+    color: red;
+    padding: 8px 25px;
+}
+
+.GodPresence {
+    color: red;
+    text-align: center;
+    font-size: 18px;
+    margin-top: -10rem;
+}
+
+.Latest {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.Mypageimg {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding-left: 3rem;
+}
+
+.Mypageimg .Page-img {
+    width: 90%;
+}
+
+.Mypageimg .Wed {
+    color: rgba(255, 0, 0, 0.523);
+    font-size: 20px;
+    padding-left: 1rem;
+    padding-top: 1.6rem;
+    margin-top: -0.3rem;
+    margin-right: 2.5rem;
+    background-color: rgba(128, 128, 128, 0.155);
+    height: 12rem;
+}
+
+.Mypageimg .dolor {
+    position: absolute;
+    color: rgb(18, 18, 18);
+    top: 650%;
+    padding-left: 1rem;
+  }
+  
+.Mypageimg .Pstby {
+    color: rgb(12, 14, 13);
+    position: absolute;
+    top: 641%;
+    font-weight: 600;
+    padding-left: 1rem;
+  }
+  
+  .Mypageimg .Hopelink {
+    text-decoration: none;
+    position: absolute;
+    top: 640%;
+    left: 270px;
+    border: 1px solid red;
+    border-radius: 20px;
+    color: black;
+    padding: 7px 12px;
+    font-size: 12px;
+  
+  }
+  
+  .Mypageimg .Page-by {
+    color: rgb(12, 14, 13);
+    position: absolute;
+    top: 641%;
+    font-weight: 600;
+    padding-left: 1rem;
+  }
+
+  .Mypageimg .ipsum {
+    position: absolute;
+    color: rgb(18, 18, 18);
+    top: 650%;
+    padding-left: 1rem;
+  }
+  
+  .Mypageimg .colorLink {
+    text-decoration: none;
+    position: absolute;
+    top: 640%;
+    font-size: 12px;
+    left: 676px;
+    border: 1px solid red;
+    border-radius: 20px;
+    color: black;
+    padding: 7px 12px;
+  }
+  
+  .Mypageimg .consect {
+    position: absolute;
+    color: rgb(18, 18, 18);
+    top: 650%;
+    padding-left: 1rem;
+  }
+  
+  .Mypageimg .Homepst {
+    color: rgb(12, 14, 13);
+    position: absolute;
+    top: 641%;
+    font-weight: 600;
+    padding-left: 1rem;
+  }
+  
+  .Mypageimg .sermonPraylink {
+    text-decoration: none;
+    position: absolute;
+    top: 640%;
+    font-size: 12px;
+    border: 1px solid red;
+    border-radius: 20px;
+    left: 1080px;
+    color: black;
+    padding: 7px 12px;
+}
+
+.Mymail {
+    display: flex;
+    margin-top: 6rem;
+    gap: 20%;
+    background-color: rgba(255, 0, 0, 0.689);
+    height: 8rem;
+    position: relative;
+}
+
+.Mymail .mailsub {
+    padding-top: 3rem;
+    padding-left: 3rem;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.Mymail .myform {
+    margin-top: 3rem;
+}
+
+.Mymail input {
+    width: 20%;
+    position: absolute;
+    right: 20%;
+    height: 2.1rem;
+    text-indent: 5px;
+    background-color:  white;
+    border: none;
+}
+
+.Mymail .Home-button {
+    position: absolute;
+    top: 37.2%;
+    left: 80%;
+    height: 2.1rem;
+    border: none;
+    padding: 6px 20px;
+    background-color: rgba(239, 231, 231, 0.865);
+}
+
+.Mymail .buttonLink {
+    text-decoration: none;
+    color: rgb(245, 11, 11);
+}
+
+.Homecontact {
+    display: flex;
+    flex-direction: column;
+}
+  
+.Homecontact .Home-contact {
+    color: black;
+    padding-top: 5rem;
+    padding-left: 1rem;
+}
+  
+.Homecontact .New-York {
+    color: black;
+    padding-top: 1rem;
+    font-size: 20px;
+    padding-left: 1rem;
+    font-weight: 700;
+}
+  
+.Homecontact .Park {
+    color: gray;
+    /* padding-top: 1rem; */
+    padding-left: 1rem;
+    font-size: 20px;
+}
+  
+.Homecontact .Homemail {
+    color: black;
+    /* padding-top: 1rem; */
+    padding-left: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+}
+  
+.Homecontact .info {
+    color: gray;
+}
+  
+.Homecontact .Homephone {
+    color: black;
+    font-size: 20px;
+    padding-left: 1rem;
+    /* padding-top: 1rem; */
+    font-weight: 700;
+}
+  
+.HomeFooter {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(128, 128, 128, 0.308);
+    margin-top: 2rem;
+}
+  
+.HomeFooter p {
+    padding-top: 1rem;
+    font-size: 20px;
+    padding-left: 1rem;
+}
+
+
+@media screen and (max-width: 428px) {
+  .navbar-brand {
+    font-size: 22px;
+    font-weight: 550;
+  }
+  
+  .navbar-brand:hover {
+    color: black;
+  }
+
+  .navbar-toggler-icon, .fa-solid {
+    font-size: 40px;
+    margin-top: 1.8rem;
+    margin-right: -01rem;
+  }
+
+  .nav-link {
+    font-size: 18px;
+  }
+
+  .glitchContainer {
+      position: relative;
+  }
+  
+  .glitchContainer .Glitchimg {
+      width: 100%;
+      height: 650px;
+  } 
+  
+  .glitchContainer .Amazing-Grace {
+      position: absolute;
+      color: rgb(250, 249, 249);
+      top: 28%;
+      font-size: 32px;
+      font-weight: 550;
+      padding-left: 5.7rem;
+      padding-right: 1rem;
+      line-height: 40px;
+      letter-spacing: 4px;
+  }
+  
+  .glitchContainer .glitchText {
+      position: absolute;
+      color: white;
+      top: 45%;
+      font-size: 18px;
+      padding-left: 2rem;
+      padding-right: 1rem;
+      letter-spacing: 2px;
+      line-height: 25px;
+  }
+  
+  .glitchContainer .joinus a {
+      position: absolute;
+      top: 418px;
+      margin-left: 7.5rem;
+      color: white;
+      letter-spacing: 8px;
+      font-size: larger;
+      padding: 10px 50px;
+      background-color: red;
+      text-decoration: none;
+  }
+  
+  .glitchContainer .joinus a:hover {
+      cursor: pointer;
+      background-color: white;
+      border: none;
+      color: rgb(249, 7, 7);
+  }
+  
+  .togetherContainer {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+  }
+  
+  .togetherContainer .myimg {
+      visibility: hidden;
+  }
+  
+  .togetherContainer .Togethertext {
+      padding-left: 0.5rem;
+      font-size: 25px;
+      line-height: 36px;
+      font-weight: 550;
+      color: black;
+  }
+  
+  .togetherContainer .God-did {
+      position: absolute;
+      top: 93%;
+      padding-left: 0.5rem;
+      color: black;
+      font-size: 21px;
+  }
+  
+  .togetherContainer .officia {
+      position: absolute;
+      top: 140%;
+      padding-left: 0.5rem;
+      font-size: 21px;
+      padding-right: 0.9rem;
+      line-height: 25px;
+      color: black;
+  }
+  
+  .togetherContainer .Joinwithus {
+      position: absolute;
+      top: 190%;
+      margin-left: 0.6rem;
+  }
+
+h4 {
+    color: red;
+    padding-left: 0.1rem;
+    padding-top: 23rem;
+}
+  
+h3 {
+    color: black;
+    font-size: 40px;
+    font-weight: 550;
+    /* padding-top: 0.8rem; */
+}
+  
+.Sufficient {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    position: relative;
+    height: 68rem;
+    background-color: rgba(128, 128, 128, 0.123);
+}
+  
+.Sufficient .BibleExp {
+    color: black;
+    position: absolute;
+    top: 40%;
+    font-size: 26px;
+    letter-spacing: 3px;
+    left: 2%;
+    right: 10%;
+    font-weight: 550;
+}
+  
+.Sufficient .Session {
+    color: black;
+    position: absolute;
+    top: 55%;
+    left: 2%;
+    right: 10%;
+    font-size: 19px;
+}
+
+.Sufficient span {
+    color: rgba(255, 0, 0, 0.548);
+}
+  
+.Sufficient .Sermons{
+    position: absolute;
+    color: rgba(255, 0, 0, 0.548);
+    top: 60%;
+    font-size: 19px;
+    right: 54%;
+}
+  
+.Sufficient .ForGod {
+    position: absolute;
+    color: black;
+    top: 65%;
+    font-size: 21px;
+    line-height: 30px;
+    padding-left: 0.7rem;
+}
+  
+.Sufficient .Excepteur {
+    position: absolute;
+    color: black;
+    top: 75%;
+    font-size: 21px;
+    line-height: 30px;
+    padding-left: 0.7rem;
+  }
+  
+  .Sufficient .ForGod1 {
+    position: absolute;
+    color: black;
+    top: 88%;
+    font-size: 21px;
+    line-height: 30px;
+    padding-left: 0.7rem;
+  }
+
+  .Presence {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Presence .ExperienceText {
+    color: red;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 1rem;
+  }
+  
+  .Presence .UpcoimgEvent {
+    color: black;
+    padding-left: 1rem;
+    font-size: 35px;
+  }
+  
+  .Presence .veiwLink {
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  
+  .Presence .veiwlink {
+    text-decoration: none;
+    background-color: red;
+    padding: 15px 20px;
+    color: white;
+    letter-spacing: 4px;
+  }
+  
+  .Homedetails {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .Homedetails .Himg {
+    width: 100%;
+    padding-left: 0.0rem;
+    height: 30rem;
+    padding-top: 3rem;
+  }
+  
+  .Homedetails .GiveText {
+    color: black;
+    padding-top: 3rem;
+    font-size: 25px;
+    left: 2%;
+    letter-spacing: 3px;
+  }
+  
+  .Homedetails .con {
+    position: absolute;
+    top: 116.6%;
+    right: 95%;
+  }
+
+  .Homedetails .name {
+    color: rgb(10, 8, 8);
+    position: absolute;
+    top: 116%;
+    font-size: 21px;
+    font-weight: 549;
+    right: 61%;
+  }
+  
+  .Homedetails .con2 {
+    position: absolute;
+    top: 125.5%;
+    right: 95%;
+  }
+
+  .Homedetails .names {
+    position: absolute;
+    color: black;
+    font-size: 21px;
+    right: 43%;
+    font-weight: 540;
+    top: 125%;
+  }
+  
+  .Homedetails .con3 {
+    position: absolute;
+    top: 134.4%;
+    right: 95%;
+  }
+
+  .Homedetails .Name {
+    color: rgba(255, 0, 0, 0.603);
+    position: absolute;
+    font-size: 21px;
+    top: 134%;
+    left: 7%;
+  }
+
+  .Homedetails .occaecat {
+    color: rgb(93, 87, 87);
+    position: absolute;
+    top: 152%;
+    font-size: 20px;
+    left: 3%;
+    line-height: 30px;
+  }
+  
+  .Homedetails .Elink {
+    text-decoration: none;
+    position: absolute;
+    top: 201%;
+    right: 65%;
+    border: 3px solid red;
+    color: red;
+    border-radius: 20px;
+    padding: 12px 30px;
+  }
+
+  .Homedetails .Readmore:hover {
+    background-color: red;
+  }
+  
+  .Details {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 59rem;
+  }
+  
+  .Details .Dimg {
+    width: 100%;
+    padding-left: 0.0rem;
+    height: 28rem;
+  }
+  
+  .Details .supportText {
+    color: black;
+    padding-top: 3rem;
+    position: absolute;
+    font-size: 25px;
+    left: 2%;
+  }
+  
+  .Details .con4 {
+    position: absolute;
+    top: 107%;
+    right: 95%;
+  }
+
+  .Details .detailsname {
+    color: rgb(10, 7, 7);
+    position: absolute;
+    top: 106.8%;
+    font-size: 21px;
+    left: 7.5%;
+  }
+  
+  .Details .con5 {
+    position: absolute;
+    top: 110.5%;
+    right: 95%;
+  }
+
+  .Details .detailname {
+    position: absolute;
+    color: black;
+    font-size: 21px;
+    top: 110.4%;
+    right: 44.5%;
+  }
+
+  .Details .con6 {
+    position: absolute;
+    top: 114%;
+    right: 95%;
+  }
+  
+  .Details .OurVenue {
+    color: rgba(227, 28, 28, 0.425);
+    font-size: 20px;
+    position: absolute;
+    left: 7%;
+    top: 113.8%;
+  }
+  
+  .Details .proident {
+    color: rgb(15, 14, 14);
+    position: absolute;
+    top: 120%;
+    font-size: 21px;
+    left: 3%;
+    line-height: 30px;
+  }
+  
+  .Details .readMore {
+    text-decoration: none;
+    position: absolute;
+    top: 139%;
+    border: 3px solid red;
+    color: red;
+    padding: 12px 30px;
+    right: 64%;
+  }
+
+  
+  .GodPresence {
+    color: rgb(243, 16, 16);
+    position: absolute;
+    top: 569%;
+    padding-left: 6rem;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .Latest {
+    color: black;
+    position: absolute;
+    top: 556%;
+    font-size: 35px;
+    padding-left: 6.2rem;
+    font-weight: 600;
+  }
+  
+  .Mypageimg {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 50rem
+  }
+  
+  .Mypageimg .Page-img {
+    width: 106%;
+    margin-left: -2.4rem;
+    padding-left: 0rem;
+  }
+  
+  .Mypageimg .Wed {
+    color: red;
+    font-size: 23px;
+    margin-left: -2.4rem;
+    width: 106%;
+    background-color: rgba(128, 128, 128, 0.155);
+    height: 15rem;
+  }
+  
+  .Mypageimg .Pstby {
+    font-size: 21px;
+    position: absolute;
+    top: 46.7%;
+    left: 2%;
+    color: rgb(12, 10, 10);
+  }
+  
+  .Mypageimg .Hope {
+    color: rgb(159, 158, 158);
+    position: absolute;
+    top: 46.3%;
+    font-size: 18px;
+    font-weight: 550;
+    width: 90%;
+    left: 27%;
+  }
+  
+  .Mypageimg .Hopelink {
+    text-decoration: none;
+    position: absolute;
+    left: 199px;
+    color: black;
+    padding: 10px 18px;
+  }
+  
+  .Mypageimg .dolor {
+    position: absolute;
+    font-size: 22px;
+    top: 49%;
+    left: 2%;
+    font-weight: 500;
+    color: black;
+  }
+  
+  .Mypageimg .Page-by {
+    color: black;
+    position: absolute;
+    top: 70%;
+    font-size: 21px;
+    left: 2%;
+  }
+ 
+  .Mypageimg .ipsum {
+    position: absolute;
+    font-size: 22px;
+    font-weight: 500;
+    top: 72.4%;
+    left: 2%;
+  }
+
+  .Mypageimg .Color {
+    color: rgb(159, 158, 158);
+    position: absolute;
+    top: 69.7%;
+    font-size: 18px;
+    font-weight: 550;
+    width: 95%;
+    left: 22%;
+  }
+
+  .Mypageimg .colorLink {
+    text-decoration: none;
+    position: absolute;
+    left: 225px;
+    color: black;
+    padding: 10px 18px;
+  }
+
+  .Mypageimg .consect {
+    position: absolute;
+    color: rgb(18, 18, 18);
+    top: 95.5%;
+    left: 2%;
+    font-size: 22px;
+  }
+
+  .Mypageimg .Homepst{
+    position: absolute;
+    font-size: 21px;
+    top: 93.2%;
+    color: black;
+    left: 2%;
+    font-weight: 550;
+  }
+  
+  .Mypageimg .sermonPray {
+    color: rgba(128, 128, 128, 0.573);
+    position: absolute;
+    width: 90%;
+    top: 92.7%;
+    font-size: 21px;
+    font-weight: 550;
+    left: 26%;
+  }
+  
+  .Mypageimg .sermonPraylink {
+    text-decoration: none;
+    position: absolute;
+    top: 96.2%;
+    left: 210px;
+    color: black;
+    padding: 10px 18px;
+  }
+  
+  .Mymail {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 0, 0, 0.628);
+    height: 17rem;
+    position: relative;
+  }
+  
+  .Mymail .mailsub {
+    padding-top: 5rem;
+    padding-left: 1.7rem;
+    font-size: 20px;
+  }
+  
+  /* .Mymail .myform {
+    margin-top: 2rem;
+    margin-left: 1rem;
+  } */
+  
+  .Mymail input {
+    width: 55%;
+    position: absolute;
+    top: 57%;
+    right: 35%;
+    height: 2.3rem;
+    text-indent: 5px;
+    background-color: white;
+    border: none;
+  }
+
+  .Mymail .Home-button {
+    position: absolute;
+    top: 57%;
+    left: 65%;
+    background-color: rgba(239, 231, 231, 0.865);
+    height: 2.3rem;
+    border: none;
+    padding: 8px 20px;
+}
+
+.Mymail .buttonLink {
+    text-decoration: none;
+    color: red;
+    font-size: 15px;
+}
+  .Homecontact {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Homecontact .Home-contact {
+    color: black;
+    padding-top: 6rem;
+    padding-left: 1rem;
+  }
+  
+  .Homecontact .New-York {
+    color: black;
+    font-size: 20px;
+    padding-left: 1rem;
+    font-weight: 700;
+  }
+  
+  .Homecontact .Park {
+    color: gray;
+    padding-left: 1rem;
+    font-size: 20px;
+  }
+  
+  .Homecontact .Homemail {
+    color: black;
+    padding-left: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .Homecontact .info {
+    color: gray;
+  }
+  
+  .Homecontact .Homephone {
+    color: black;
+    font-size: 20px;
+    padding-left: 1rem;
+    font-weight: 700;
+  }
+  
+  .HomeFooter {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.311);
+    margin-top: 2rem;
+  }
+  
+  .HomeFooter p {
+    padding-top: 1rem;
+    font-size: 20px;
+    padding-left: 1rem;
+  }
+}
+
+/* For 390 */
+
+
+@media screen and (max-width: 390px) {
+  .navbar-brand {
+    font-size: 22px;
+    font-weight: 550;
+  }
+  
+  .navbar-brand:hover {
+    color: black;
+  }
+
+  .navbar-toggler-icon, .fa-solid {
+    font-size: 40px;
+    margin-top: 1.8rem;
+    margin-right: -01rem;
+  }
+
+  .nav-link {
+    font-size: 18px;
+  }
+
+  .glitchContainer {
+      position: relative;
+  }
+  
+  .glitchContainer .Glitchimg {
+      width: 100%;
+      height: 650px;
+  } 
+  
+  .glitchContainer .Amazing-Grace {
+      position: absolute;
+      color: rgb(250, 249, 249);
+      top: 28%;
+      font-size: 32px;
+      font-weight: 550;
+      padding-left: 4rem;
+      padding-right: 1rem;
+      line-height: 40px;
+      letter-spacing: 4px;
+  }
+  
+  .glitchContainer .glitchText {
+      position: absolute;
+      color: white;
+      top: 45%;
+      font-size: 18px;
+      padding-left: 2rem;
+      padding-right: 1rem;
+      letter-spacing: 2px;
+      line-height: 25px;
+  }
+  
+  .glitchContainer .joinus a {
+      position: absolute;
+      top: 418px;
+      margin-left: 6.1rem;
+      color: white;
+      letter-spacing: 8px;
+      font-size: larger;
+      padding: 10px 50px;
+      background-color: red;
+      text-decoration: none;
+  }
+  
+  .glitchContainer .joinus a:hover {
+      cursor: pointer;
+      background-color: white;
+      border: none;
+      color: rgb(249, 7, 7);
+  }
+  
+  .togetherContainer {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+  }
+  
+  .togetherContainer .myimg {
+      visibility: hidden;
+  }
+  
+  .togetherContainer .Togethertext {
+      padding-left: 0.5rem;
+      font-size: 25px;
+      line-height: 36px;
+      font-weight: 550;
+      color: black;
+  }
+  
+  .togetherContainer .God-did {
+      position: absolute;
+      top: 96%;
+      padding-left: 0.5rem;
+      color: black;
+      font-size: 20px;
+  }
+  
+  .togetherContainer .officia {
+      position: absolute;
+      top: 141%;
+      padding-left: 0.5rem;
+      font-size: 20px;
+      line-height: 25px;
+      color: black;
+  }
+  
+  .togetherContainer .Joinwithus {
+      position: absolute;
+      top: 193%;
+      margin-left: 0.6rem;
+  }
+
+h4 {
+      color: red;
+      text-align: center;
+      padding-right: 1rem;
+      padding-top: 23rem;
+}
+  
+h3 {
+      color: black;
+      text-align: center;
+      font-size: 40px;
+      padding-right: 0.8rem;
+      font-weight: 550;
+    /* padding-top: 0.8rem; */
+}
+  
+.Sufficient {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    position: relative;
+    height: 68rem;
+    background-color: rgba(128, 128, 128, 0.123);
+}
+  
+.Sufficient .BibleExp {
+    color: black;
+    position: absolute;
+    top: 40%;
+    font-size: 26px;
+    letter-spacing: 3px;
+    left: 2%;
+    right: 10%;
+    font-weight: 550;
+}
+  
+.Sufficient .Session {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 55%;
+    left: 2%;
+    right: 10%;
+    font-size: 19px;
+}
+  
+.Sufficient .Sermons{
+    position: absolute;
+    color: rgba(255, 0, 0, 0.608);
+    /* top: 60%; */
+    font-size: 19px;
+    right: 47%;
+}
+  
+.Sufficient .ForGod {
+    position: absolute;
+    color: black;
+    top: 65%;
+    font-size: 21px;
+    line-height: 30px;
+    padding-left: 0.7rem;
+}
+  
+.Sufficient .Excepteur {
+    position: absolute;
+    color: black;
+    top: 75%;
+    font-size: 21px;
+    line-height: 30px;
+    padding-left: 0.7rem;
+  }
+  
+  .Sufficient .ForGod1 {
+    position: absolute;
+    color: black;
+    top: 88%;
+    font-size: 21px;
+    line-height: 30px;
+    padding-left: 0.7rem;
+  }
+
+  .Presence {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Presence .ExperienceText {
+    color: red;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 1rem;
+  }
+  
+  .Presence .UpcoimgEvent {
+    color: black;
+    padding-left: 1rem;
+    font-size: 35px;
+  }
+  
+  .Presence .veiwLink {
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  
+  .Presence .veiwlink {
+    text-decoration: none;
+    background-color: red;
+    padding: 15px 20px;
+    color: white;
+    letter-spacing: 4px;
+  }
+  
+  .Homedetails {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .Homedetails .Himg {
+    width: 98%;
+    padding-left: 0.5rem;
+    height: 30rem;
+    padding-top: 3rem;
+  }
+  
+  .Homedetails .GiveText {
+    color: black;
+    padding-top: 3rem;
+    font-size: 25px;
+    left: 2%;
+    letter-spacing: 3px;
+  }
+  
+  .Homedetails .con {
+    position: absolute;
+    top: 116.6%;
+    right: 95%;
+  }
+
+  .Homedetails .name {
+    color: rgb(10, 8, 8);
+    position: absolute;
+    top: 116%;
+    font-size: 21px;
+    font-weight: 549;
+    right: 57%;
+  }
+  
+  .Homedetails .con2 {
+    position: absolute;
+    top: 125.5%;
+    right: 95%;
+  }
+
+  .Homedetails .names {
+    position: absolute;
+    color: black;
+    font-size: 21px;
+    right: 37%;
+    font-weight: 540;
+    top: 125%;
+  }
+  
+  .Homedetails .con3 {
+    position: absolute;
+    top: 134.4%;
+    right: 95%;
+  }
+
+  .Homedetails .Name {
+    color: rgba(255, 0, 0, 0.608);
+    position: absolute;
+    font-size: 21px;
+    top: 134%;
+    left: 7%;
+  }
+
+  .Homedetails .occaecat {
+    color: rgb(93, 87, 87);
+    position: absolute;
+    top: 152%;
+    font-size: 21px;
+    left: 3%;
+    line-height: 30px;
+  }
+  
+  .Homedetails .Elink {
+    text-decoration: none;
+    position: absolute;
+    top: 201%;
+    right: 61%;
+    border: 3px solid red;
+    color: red;
+    border-radius: 20px;
+    padding: 12px 30px;
+  }
+
+  .Homedetails .Readmore:hover {
+    background-color: red;
+  }
+  
+  .Details {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 59rem;
+  }
+  
+  .Details .Dimg {
+    width: 98%;
+    padding-left: 0.5rem;
+    height: 28rem;
+  }
+  
+  .Details .supportText {
+    color: black;
+    padding-top: 3rem;
+    position: absolute;
+    font-size: 25px;
+    left: 2%;
+  }
+  
+  .Details .con4 {
+    position: absolute;
+    top: 107%;
+    right: 95%;
+  }
+
+  .Details .detailsname {
+    color: rgb(10, 7, 7);
+    position: absolute;
+    top: 106.8%;
+    font-size: 21px;
+    left: 7.5%;
+  }
+  
+  .Details .con5 {
+    position: absolute;
+    top: 110.5%;
+    right: 95%;
+  }
+
+  .Details .detailname {
+    position: absolute;
+    color: black;
+    font-size: 21px;
+    top: 110.4%;
+    right: 38%;
+  }
+
+  .Details .con6 {
+    position: absolute;
+    top: 114%;
+    right: 95%;
+  }
+  
+  .Details .OurVenue {
+    color: rgba(227, 28, 28, 0.836);
+    font-size: 20px;
+    position: absolute;
+    left: 7%;
+    top: 113.8%;
+  }
+  
+  .Details .proident {
+    color: rgb(15, 14, 14);
+    position: absolute;
+    top: 120%;
+    font-size: 21px;
+    left: 3%;
+    line-height: 30px;
+  }
+  
+  .Details .readMore {
+    text-decoration: none;
+    position: absolute;
+    top: 139%;
+    border: 3px solid red;
+    color: red;
+    padding: 12px 30px;
+    right: 61%;
+  }
+
+  
+  .GodPresence {
+    color: rgb(243, 16, 16);
+    position: absolute;
+    top: 652%;
+    padding-left: 6rem;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .Latest {
+    color: black;
+    position: absolute;
+    top: 638%;
+    font-size: 35px;
+    padding-left: 6.3rem;
+    font-weight: 600;
+  }
+  
+  .Mypageimg {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 50rem;
+  }
+  
+  .Mypageimg .Page-img {
+    width: 110%;
+    margin-left: -3rem;
+    padding-left: 0.5rem;
+  }
+  
+  .Mypageimg .Wed {
+    color: red;
+    font-size: 23px;
+    margin-left: -2.5rem;
+    width: 108%;
+    background-color: rgba(128, 128, 128, 0.155);
+    height: 15rem;
+  }
+  
+  .Mypageimg .Pstby {
+    font-size: 21px;
+    position: absolute;
+    top: 47.7%;
+    left: 2%;
+    color: rgb(12, 10, 10);
+  }
+  
+  .Mypageimg .Hope {
+    color: rgb(159, 158, 158);
+    position: absolute;
+    top: 47.7%;
+    font-size: 18px;
+    font-weight: 550;
+    width: 90%;
+    left: 23%;
+  }
+  
+  .Mypageimg .Hopelink {
+    text-decoration: none;
+    position: absolute;
+    left: 199px;
+    color: black;
+    padding: 10px 18px;
+  }
+  
+  .Mypageimg .dolor {
+    position: absolute;
+    font-size: 22px;
+    top: 50%;
+    left: 2%;
+    font-weight: 500;
+    color: black;
+  }
+  
+  .Mypageimg .Page-by {
+    color: black;
+    position: absolute;
+    top: 70.5%;
+    font-size: 21px;
+    left: 2%;
+  }
+ 
+  .Mypageimg .ipsum {
+    position: absolute;
+    font-size: 22px;
+    font-weight: 500;
+    top: 73%;
+    left: 2%;
+  }
+
+  .Mypageimg .Color {
+    color: rgb(159, 158, 158);
+    position: absolute;
+    top: 70.4%;
+    font-size: 18px;
+    font-weight: 550;
+    width: 95%;
+    left: 17%;
+  }
+
+  .Mypageimg .colorLink {
+    text-decoration: none;
+    position: absolute;
+    left: 225px;
+    color: black;
+    padding: 10px 18px;
+  }
+
+  .Mypageimg .consect {
+    position: absolute;
+    color: rgb(18, 18, 18);
+    top: 96%;
+    left: 2%;
+    font-size: 22px;
+  }
+
+  .Mypageimg .Homepst{
+    position: absolute;
+    font-size: 21px;
+    top: 93.7%;
+    color: black;
+    left: 2%;
+    font-weight: 550;
+  }
+  
+  .Mypageimg .sermonPray {
+    color: rgba(128, 128, 128, 0.573);
+    position: absolute;
+    width: 90%;
+    top: 93.6%;
+    font-size: 21px;
+    font-weight: 550;
+    left: 21%;
+  }
+  
+  .Mypageimg .sermonPraylink {
+    text-decoration: none;
+    position: absolute;
+    top: 96.2%;
+    left: 210px;
+    color: black;
+    padding: 10px 18px;
+  }
+  
+  .Mymail {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 0, 0, 0.628);
+    height: 17rem;
+    position: relative;
+  }
+  
+  .Mymail .mailsub {
+    padding-top: 5rem;
+    padding-left: 1.7rem;
+    font-size: 20px;
+  }
+  
+  /* .Mymail .myform {
+    margin-top: 2rem;
+    margin-left: 1rem;
+  } */
+  
+  .Mymail input {
+    width: 55%;
+    position: absolute;
+    top: 57%;
+    right: 35%;
+    height: 2.3rem;
+    text-indent: 5px;
+    background-color: white;
+    border: none;
+  }
+
+  .Mymail .Home-button {
+    position: absolute;
+    top: 57%;
+    left: 65%;
+    background-color: rgba(239, 231, 231, 0.865);
+    height: 2.3rem;
+    border: none;
+    padding: 8px 20px;
+}
+
+.Mymail .buttonLink {
+    text-decoration: none;
+    color: red;
+    font-size: 15px;
+}
+  .Homecontact {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Homecontact .Home-contact {
+    color: black;
+    padding-top: 6rem;
+    padding-left: 1rem;
+  }
+  
+  .Homecontact .New-York {
+    color: black;
+    font-size: 20px;
+    padding-left: 1rem;
+    font-weight: 700;
+  }
+  
+  .Homecontact .Park {
+    color: gray;
+    padding-left: 1rem;
+    font-size: 20px;
+  }
+  
+  .Homecontact .Homemail {
+    color: black;
+    padding-left: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .Homecontact .info {
+    color: gray;
+  }
+  
+  .Homecontact .Homephone {
+    color: black;
+    font-size: 20px;
+    padding-left: 1rem;
+    font-weight: 700;
+  }
+  
+  .HomeFooter {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.311);
+    margin-top: 2rem;
+  }
+  
+  .HomeFooter p {
+    padding-top: 1rem;
+    font-size: 20px;
+    padding-left: 1rem;
+  }
+}
+
+  /* About css */
+
+.Aboutimg {
+  position: relative;
+}
+
+.Aboutimg .aboutImg {
+  width: 100%;
+  height: 11rem;
+}
+
+.Aboutimg .about {
+  position: absolute;
+  top: 31%;
+  color: white;
+  padding-left: 2rem;
+  font-size: 22px;
+}
+
+.Aboutimg .aboutHome {
+  position: absolute;
+  top: 50%;
+  padding-left: 2rem;
+  color: white;
+}
+
+.Aboutimg .aboutHomeLink {
+  text-decoration: none;
+  color: white;
+}
+
+.Aboutimg .aboutHomeLink:hover{
+  color: rgba(255, 0, 0, 0.434);
+}
+
+.AboutContainer {
+  display: flex;
+  position: relative;
+}
+
+.AboutContainer .aboutText {
+  position: absolute;
+  top: 20%;
+  font-size: 30px;
+  padding-left: 2rem;
+  letter-spacing: 2px;
+}
+
+.AboutContainer  .forGod {
+  position: absolute;
+  top: 39%;
+  line-height: 30px;
+  padding-left: 2rem;
+}
+
+.AboutContainer .mollit {
+  position: absolute;
+  top: 53%;
+  line-height: 30px;
+  padding-left: 2rem;
+}
+
+.AboutContainer .Aboutlink {
+  position: absolute;
+  top: 70%;
+  margin-left: 2rem;
+}
+
+.AboutContainer .withUs {
+  text-decoration: none;
+  background-color: red;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+.AboutContainer .Myimg {
+  float: right;
+  padding-top: 5rem;
+  width: 57%;
+  height: 75%;
+  padding-left: 10rem;
+}
+
+.ValuesContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(128, 128, 128, 0.132);
+  height: 20rem;
+  margin-top: 4rem;
+}
+
+.ValuesContainer .Valuespan {
+  position: absolute;
+  top: 158.6%;
+  font-size: 30px;
+  padding-left: 0.6rem;
+}
+
+.ValuesContainer .Avoutvalues {
+  padding-left: 2.6rem;
+  padding-top: 5rem;
+}
+
+.ValuesContainer .qui {
+  padding-left: 1.5rem;
+  padding-top: 0.5rem;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.ValuesContainer .link-value {
+  padding-top: 0rem;
+}
+
+.ValuesContainer .Abtvalue-link {
+  text-decoration: none;
+  color: gray;
+  padding-left: 1.5rem;
+}
+
+.ValuesContainer .span2 {
+  position: absolute;
+  top: 159%;
+  font-size: 30px;
+}
+
+.ValuesContainer .Avoutvalues2 {
+  padding-left: 2.6rem;
+  padding-top: 5rem;
+} 
+
+.ValuesContainer .span3 {
+  position: absolute;
+  top: 159%;
+  font-size: 30px;
+}
+
+.ValuesContainer .Avoutvalues3 {
+  padding-left: 2.6rem;
+  padding-top: 5rem;
+}
+
+.God-Presence {
+  text-align: center;
+  padding-top: 5rem;
+  color: red;
+  font-weight: 600;
+}
+
+.OurPastors {
+  text-align: center;
+  font-size: 50px;
+}
+
+.Pstimg {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding-top: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.Pstimg .PstImg {
+  width: 240px;
+  height: 240px;
+  border-radius: 100%;
+}
+
+.Pstimg .background {
+  background-color: rgba(128, 128, 128, 0.094);
+  height: 26rem;
+  width: 119%;
+  margin-top: -18rem;
+  margin-left: -1.3rem;
+  margin-right: 2rem;
+}
+
+.Pstimg .pstName {
+  position: absolute;
+  font-size: 20px;
+  /* letter-spacing: 1px; */
+  top: 76%;
+  font-weight: 545;
+  padding-left: 2rem;
+}
+
+.Pstimg .lead {
+  color: red;
+  position: absolute;
+  top: 83%;
+  font-size: 20px;
+  padding-left: 4rem;
+  letter-spacing: 1px;
+  font-weight: 545;
+}
+
+.Pstimg .pst-Name {
+  position: absolute;
+  font-size: 20px;
+  letter-spacing: 1px;
+  top: 76%;
+  font-weight: 545;
+  padding-left: 3.8rem;
+}
+
+.Pstimg .Jlead {
+  color: red;
+  position: absolute;
+  top: 83%;
+  font-size: 20px;
+  padding-left: 5.6rem;
+  letter-spacing: 1px;
+  font-weight: 545;
+}
+
+.Pstimg .pstname {
+  position: absolute;
+  font-size: 20px;
+  letter-spacing: 1px;
+  top: 76%;
+  font-weight: 545;
+  padding-left: 3.5rem;
+
+}
+
+.Pstimg .Clead {
+  color: red;
+  position: absolute;
+  top: 83%;
+  font-size: 20px;
+  padding-left: 5.5rem;
+  letter-spacing: 1px;
+  font-weight: 545;
+}
+
+.Pstimg .PstName {
+  position: absolute;
+  font-size: 20px;
+  letter-spacing: 1px;
+  top: 76%;
+  font-weight: 545;
+  padding-left: 4.7rem;
+}
+
+.Pstimg .Klead {
+  color: red;
+  position: absolute;
+  top: 83%;
+  font-size: 20px;
+  padding-left: 6.3rem;
+  letter-spacing: 1px;
+  font-weight: 545;
+}
+
+.Aboutmail {
+  display: flex;
+  margin-top: 6rem;
+  gap: 20%;
+  background-color: rgba(255, 0, 0, 0.689);
+  height: 8rem;
+  position: relative;
+}
+
+.Aboutmail .mail-sub {
+  padding-top: 3rem;
+  padding-left: 3rem;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.Aboutmail .my-form {
+  margin-top: 3rem;
+}
+
+.Aboutmail input {
+  width: 20%;
+  position: absolute;
+  right: 20%;
+  height: 2.2rem;
+  text-indent: 5px;
+  background-color: white;
+  border: none;
+}
+
+.Aboutmail .About-button {
+  position: absolute;
+  top: 37.5%;
+  left: 80%;
+  height: 2.2rem;
+  border: none;
+  padding: 7px 20px;
+  background-color: rgba(239, 231, 231, 0.865);
+}
+
+.Aboutmail .button-Link {
+  text-decoration: none;
+  color: red;
+}
+
+.Aboutcontact {
+  display: flex;
+  flex-direction: column;
+}
+
+.Aboutcontact .About-contact {
+  color: black;
+  padding-top: 5rem;
+  padding-left: 1rem;
+}
+
+.Aboutcontact .York {
+  color: black;
+  /* padding-top: 1rem; */
+  font-size: 20px;
+  padding-left: 1rem;
+  font-weight: 700;
+}
+
+.Aboutcontact .Avenue {
+  color: gray;
+  /* padding-top: 1rem; */
+  padding-left: 1rem;
+  font-size: 20px;
+}
+
+.Aboutcontact .aboutmail {
+  color: black;
+  /* padding-top: 2rem; */
+  padding-left: 1rem;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.Aboutcontact .infos {
+  color: gray;
+}
+
+.Aboutcontact .Aboutphone {
+  color: black;
+  font-size: 20px;
+  padding-left: 1rem;
+  /* padding-top: 2rem; */
+  font-weight: 700;
+}
+
+.AboutFooter {
+  display: flex;
+  background-color: rgba(128, 128, 128, 0.267);
+  margin-top: 2rem;
+}
+
+.AboutFooter p {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 428px) {
+  .navbar-brand {
+    font-size: 22px;
+    font-weight: 550;
+  }
+  
+  .navbar-brand:hover {
+    color: black;
+  }
+
+  .navbar-toggler-icon, .fa-solid {
+    font-size: 40px;
+    margin-top: 1.8rem;
+    margin-right: -01rem;
+  }
+
+  .nav-link {
+    font-size: 18px;
+  }
+
+  .Aboutimg {
+    position: relative;
+  }
+  
+  .Aboutimg .aboutImg {
+    width: 100%;
+    height: 15rem;
+  }
+  
+  .Aboutimg .about {
+    position: absolute;
+    top: 37%;
+    color: white;
+    padding-left: 1rem;
+  }
+  
+  .Aboutimg .aboutHome {
+    position: absolute;
+    top: 50%;
+    padding-left: 1rem;
+  }
+  
+  .Aboutimg .aboutHomeLink {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+
+  .AboutContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .AboutContainer .aboutText {
+    position: absolute;
+    top: 30%;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 1rem;
+    letter-spacing: 2px;
+  }
+  
+  .AboutContainer  .forGod {
+    position: absolute;
+    top: 90%;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 1rem;
+  }
+  
+  .AboutContainer .mollit {
+    position: absolute;
+    top: 166%;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 1rem;
+  }
+  
+  .AboutContainer .Aboutlink {
+    position: absolute;
+    top: 275%;
+    margin-left: 1rem;
+  }
+  
+  .AboutContainer .withUs {
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+  }
+  
+  .AboutContainer .Myimg {
+    visibility: hidden;
+  }
+  
+  .ValuesContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.132);
+    height: 60rem;
+    margin-top: 24rem;
+  }
+  
+  .ValuesContainer .Valuespan {
+    position: absolute;
+    top: 118.5%;
+    font-size: 30px;
+    padding-left: 0.6rem;
+  }
+  
+  .ValuesContainer .Avoutvalues {
+    padding-left: 2.6rem;
+    padding-top: 5rem;
+  }
+  
+  .ValuesContainer .qui {
+    padding-left: 1.5rem;
+    padding-top: 0.5rem;
+    line-height: 30px;
+    font-size: 18px;
+  }
+  
+  .ValuesContainer .link-value {
+    padding-top: 0rem;
+  }
+  
+  .ValuesContainer .Abtvalue-link {
+    text-decoration: none;
+    color: gray;
+    padding-left: 1.5rem;
+  }
+  
+  .ValuesContainer .span2 {
+    position: absolute;
+    top: 153.8%;
+    padding-left: 0.5rem;
+    font-size: 30px;
+  }
+  
+  .ValuesContainer .Avoutvalues2 {
+    padding-left: 3rem;
+    padding-top: 5rem;
+  } 
+  
+  .ValuesContainer .span3 {
+    position: absolute;
+    top: 189.1%;
+    padding-left: 0.5rem;
+    font-size: 30px;
+  }
+  
+  .ValuesContainer .Avoutvalues3 {
+    padding-left: 3rem;
+    padding-top: 5rem;
+  }
+    
+  .God-Presence {
+    text-align: center;
+    padding-top: 5rem;
+    color: red;
+    font-weight: 600;
+  }
+  
+  .OurPastors {
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  .Pstimg {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    position: relative;
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .Pstimg .PstImg {
+    width: 310px;
+    height: 310px;
+    border-radius: 100%;
+    margin-left: 1.5rem;
+    margin-top: 3rem;
+  }
+  
+  .Pstimg .background {
+    background-color: rgba(128, 128, 128, 0.256);
+    height: 31rem;
+    width: 111%;
+    margin-top: -23rem;
+    margin-bottom: 3rem;
+    /* margin-left: 0.5rem; */
+    margin-right: 2rem;
+  }
+  
+  .Pstimg .pstName {
+    position: absolute;
+    font-size: 22px;
+    /* letter-spacing: 1px; */
+    top: 21%;
+    font-weight: 545;
+    padding-left: 6rem;
+  }
+  
+  .Pstimg .lead {
+    color: red;
+    position: absolute;
+    top: 23%;
+    font-size: 21px;
+    padding-left: 8rem;
+    letter-spacing: 1px;
+    font-weight: 545;
+  }
+  
+  .Pstimg .pst-Name {
+    position: absolute;
+    font-size: 21px;
+    letter-spacing: 1px;
+    top: 45%;
+    font-weight: 545;
+    padding-left: 7.6rem;
+  }
+  
+  .Pstimg .Jlead {
+    color: red;
+    position: absolute;
+    top: 46.9%;
+    font-size: 21px;
+    padding-left: 9.4rem;
+    letter-spacing: 1px;
+    font-weight: 545;
+  }
+  
+  .Pstimg .pstname {
+    position: absolute;
+    font-size: 21px;
+    letter-spacing: 1px;
+    top: 69%;
+    font-weight: 545;
+    padding-left: 7rem;
+  
+  }
+  
+  .Pstimg .Clead {
+    color: red;
+    position: absolute;
+    top: 71%;
+    font-size: 21px;
+    padding-left: 9.5rem;
+    letter-spacing: 1px;
+    font-weight: 545;
+  }
+  
+  .Pstimg .PstName {
+    position: absolute;
+    font-size: 21px;
+    letter-spacing: 1px;
+    top: 93%;
+    font-weight: 545;
+    padding-left: 7.3rem;
+  }
+  
+  .Pstimg .Klead {
+    color: red;
+    position: absolute;
+    top: 94.9%;
+    font-size: 21px;
+    padding-left: 9rem;
+    letter-spacing: 1px;
+    font-weight: 545;
+  }
+  
+  .Aboutmail {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 0, 0, 0.628);
+    height: 15rem;
+    position: relative;
+  }
+  
+  .Aboutmail .mail-sub  {
+    padding-top: 5rem;
+    padding-left: 1rem;
+    font-size: 20px;
+  }
+  
+  .Aboutmail .my-form{
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  
+  .Aboutmail input {
+    width: 55%;
+    position: absolute;
+    top: 58%;
+    right: 40%;
+    height: 2.2rem;
+    text-indent: 5px;
+    background-color: white;
+    border: none;
+  }
+
+  .Aboutmail .About-button {
+    position: absolute;
+    top: 58%;
+    background-color: rgba(239, 231, 231, 0.865);
+    left: 60%;
+    height: 2.2rem;
+    border: none;
+    padding: 7px 20px;
+}
+
+.Aboutmail  {
+    text-decoration: none;
+    color: red;
+    font-size: 15px;
+}
+  
+  .Aboutcontact {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Aboutcontact .About-contact {
+    color: black;
+    padding-top: 5rem;
+    padding-left: 1rem;
+  }
+  
+  .Aboutcontact .York {
+    color: black;
+    padding-top: 1rem;
+    font-size: 20px;
+    padding-left: 1rem;
+    font-weight: 700;
+  }
+  
+  .Aboutcontact .Avenue {
+    color: gray;
+    /* padding-top: 1rem; */
+    padding-left: 1rem;
+    font-size: 20px;
+  }
+  
+  .Aboutcontact .aboutmail {
+    color: black;
+    /* padding-top: 2rem; */
+    padding-left: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .Aboutcontact .infos {
+    color: gray;
+  }
+  
+  .Aboutcontact .Aboutphone {
+    color: black;
+    font-size: 20px;
+    padding-left: 1rem;
+    /* padding-top: 2rem; */
+    font-weight: 700;
+  }
+  
+  .AboutFooter {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.393);
+    margin-top: 2rem;
+  }
+  
+  .AboutFooter p {
+    padding-top: 1rem;
+    font-size: 20px;
+  }
+}
+
+@media screen and (width: 390px) {
+  .navbar-brand {
+    font-size: 22px;
+    font-weight: 550;
+  }
+  
+  .navbar-brand:hover {
+    color: black;
+  }
+
+  .navbar-toggler-icon, .fa-solid {
+    font-size: 40px;
+    margin-top: 1.8rem;
+    margin-right: -01rem;
+  }
+
+  .nav-link {
+    font-size: 18px;
+  }
+
+  .Aboutimg {
+    position: relative;
+  }
+  
+  .Aboutimg .aboutImg {
+    width: 100%;
+    height: 15rem;
+  }
+  
+  .Aboutimg .about {
+    position: absolute;
+    top: 37%;
+    color: white;
+    padding-left: 1rem;
+  }
+  
+  .Aboutimg .aboutHome {
+    position: absolute;
+    top: 50%;
+    padding-left: 1rem;
+  }
+  
+  .Aboutimg .aboutHomeLink {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+
+  .AboutContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .AboutContainer .aboutText {
+    position: absolute;
+    top: 30%;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 1rem;
+    letter-spacing: 2px;
+  }
+  
+  .AboutContainer  .forGod {
+    position: absolute;
+    top: 90%;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 1rem;
+  }
+  
+  .AboutContainer .mollit {
+    position: absolute;
+    top: 166%;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 1rem;
+  }
+  
+  .AboutContainer .Aboutlink {
+    position: absolute;
+    top: 275%;
+    margin-left: 1rem;
+  }
+  
+  .AboutContainer .withUs {
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+  }
+  
+  .AboutContainer .Myimg {
+    visibility: hidden;
+  }
+  
+  .ValuesContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.132);
+    height: 60rem;
+    margin-top: 24rem;
+  }
+  
+  .ValuesContainer .Valuespan {
+    position: absolute;
+    top: 129.3%;
+    font-size: 30px;
+    padding-left: 0.6rem;
+  }
+  
+  .ValuesContainer .Avoutvalues {
+    padding-left: 2.6rem;
+    padding-top: 5rem;
+  }
+  
+  .ValuesContainer .qui {
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    line-height: 30px;
+    font-size: 18px;
+  }
+  
+  .ValuesContainer .link-value {
+    padding-top: 0rem;
+  }
+  
+  .ValuesContainer .Abtvalue-link {
+    text-decoration: none;
+    color: gray;
+    padding-left: 1rem;
+  }
+  
+  .ValuesContainer .span2 {
+    position: absolute;
+    top: 168.6%;
+    padding-left: 0.5rem;
+    font-size: 30px;
+  }
+  
+  .ValuesContainer .Avoutvalues2 {
+    padding-left: 3rem;
+    padding-top: 5rem;
+  } 
+  
+  .ValuesContainer .span3 {
+    position: absolute;
+    top: 207.4%;
+    padding-left: 0.5rem;
+    font-size: 30px;
+  }
+  
+  .ValuesContainer .Avoutvalues3 {
+    padding-left: 3rem;
+    padding-top: 5rem;
+  }
+    
+  .God-Presence {
+    text-align: center;
+    padding-top: 5rem;
+    color: red;
+    font-weight: 600;
+  }
+  
+  .OurPastors {
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  .Pstimg {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    position: relative;
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .Pstimg .PstImg {
+    width: 310px;
+    height: 310px;
+    border-radius: 100%;
+    margin-left: 0.3rem;
+    margin-top: 3rem;
+  }
+  
+  .Pstimg .background {
+    background-color: rgba(128, 128, 128, 0.256);
+    height: 31rem;
+    width: 112%;
+    margin-top: -23rem;
+    margin-bottom: 3rem;
+    /* margin-left: 0.5rem; */
+    /* margin-right: 2rem; */
+  }
+  
+  .Pstimg .pstName {
+    position: absolute;
+    font-size: 22px;
+    /* letter-spacing: 1px; */
+    top: 21%;
+    font-weight: 545;
+    padding-left: 4.6rem;
+  }
+  
+  .Pstimg .lead {
+    color: red;
+    position: absolute;
+    top: 22.8%;
+    font-size: 21px;
+    padding-left: 6.3rem;
+    letter-spacing: 1px;
+    font-weight: 545;
+  }
+  
+  .Pstimg .pst-Name {
+    position: absolute;
+    font-size: 21px;
+    letter-spacing: 1px;
+    top: 45%;
+    font-weight: 545;
+    padding-left: 6rem;
+  }
+  
+  .Pstimg .Jlead {
+    color: red;
+    position: absolute;
+    top: 46.5%;
+    font-size: 21px;
+    padding-left: 8rem;
+    letter-spacing: 1px;
+    font-weight: 545;
+  }
+  
+  .Pstimg .pstname {
+    position: absolute;
+    font-size: 21px;
+    letter-spacing: 1px;
+    top: 69%;
+    font-weight: 545;
+    padding-left: 6rem;
+  
+  }
+  
+  .Pstimg .Clead {
+    color: red;
+    position: absolute;
+    top: 70.5%;
+    font-size: 21px;
+    padding-left: 8rem;
+    letter-spacing: 1px;
+    font-weight: 545;
+  }
+  
+  .Pstimg .PstName {
+    position: absolute;
+    font-size: 21px;
+    letter-spacing: 1px;
+    top: 93%;
+    font-weight: 545;
+    padding-left: 6rem;
+  }
+  
+  .Pstimg .Klead {
+    color: red;
+    position: absolute;
+    top: 94.6%;
+    font-size: 21px;
+    padding-left: 8rem;
+    letter-spacing: 1px;
+    font-weight: 545;
+  }
+  
+  .Aboutmail {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 0, 0, 0.628);
+    height: 15rem;
+    position: relative;
+  }
+  
+  .Aboutmail .mail-sub  {
+    padding-top: 5rem;
+    padding-left: 1rem;
+    font-size: 20px;
+  }
+  
+  .Aboutmail .my-form{
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  
+  .Aboutmail input {
+    width: 55%;
+    position: absolute;
+    top: 58%;
+    right: 40%;
+    height: 2.2rem;
+    text-indent: 5px;
+    background-color: white;
+    border: none;
+  }
+
+  .Aboutmail .About-button {
+    position: absolute;
+    top: 58%;
+    background-color: rgba(239, 231, 231, 0.865);
+    left: 60%;
+    height: 2.2rem;
+    border: none;
+    padding: 7px 20px;
+}
+
+.Aboutmail  {
+    text-decoration: none;
+    color: red;
+    font-size: 15px;
+}
+  
+  .Aboutcontact {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Aboutcontact .About-contact {
+    color: black;
+    padding-top: 5rem;
+    padding-left: 1rem;
+  }
+  
+  .Aboutcontact .York {
+    color: black;
+    padding-top: 1rem;
+    font-size: 20px;
+    padding-left: 1rem;
+    font-weight: 700;
+  }
+  
+  .Aboutcontact .Avenue {
+    color: gray;
+    /* padding-top: 1rem; */
+    padding-left: 1rem;
+    font-size: 20px;
+  }
+  
+  .Aboutcontact .aboutmail {
+    color: black;
+    /* padding-top: 2rem; */
+    padding-left: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .Aboutcontact .infos {
+    color: gray;
+  }
+  
+  .Aboutcontact .Aboutphone {
+    color: black;
+    font-size: 20px;
+    padding-left: 1rem;
+    /* padding-top: 2rem; */
+    font-weight: 700;
+  }
+  
+  .AboutFooter {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.393);
+    margin-top: 2rem;
+  }
+  
+  .AboutFooter p {
+    padding-top: 1rem;
+    font-size: 20px;
+  }
+}
+
+/* Contact css  */
+
+
+.Contactimg {
+  position: relative;
+}
+
+.Contactimg .ContactImg {
+  width: 100%;
+  height: 20rem;
+}
+
+.Contactimg .ContactSermon {
+  position: absolute;
+  top: 30%;
+  color: white;
+  padding-left: 2rem;
+  font-size: 23px;
+}
+
+.Contactimg .Sermon-Con {
+  position: absolute;
+  top: 40%;
+  padding-left: 2rem;
+}
+
+.Contactimg .contactLink {
+  text-decoration: none;
+  color: white;
+}
+
+.Contactimg .contactLink:hover {
+  color: rgba(255, 0, 0, 0.767);
+}
+
+.infoCon {
+  position: relative;
+  background-color: rgba(248, 238, 238, 0.984);
+  height: 45rem;
+  display: flex;
+  gap: 8%;
+  padding-top: 8rem;
+  margin-left: 3rem;
+  margin-top: -7.4rem;
+  width: 91.5%;
+}
+
+.infoCon h2 {
+  position: absolute;
+  top: 10%;
+  padding-left: 5rem;
+}
+
+.infoCon .Address {
+  padding-left: 5rem;
+  line-height: 23px;
+  color: black;
+}
+
+.infoCon .phoneNum {
+  color: black;
+}
+
+.infoCon .ourmail {
+  color: black;
+}
+
+.infoCon .website {
+  color: black;
+}
+
+.ContactMail {
+  display: flex;
+  position: relative;
+  margin-top: 3rem;
+}
+
+.ContactMail .YourName {
+  position: absolute;
+  top: -500%;
+  height: 1.9rem;
+  text-indent: 5px;
+  width: 36%;
+  right: 53.6%;
+}
+
+.ContactMail .Yourmail {
+  position: absolute;
+  top: -440%;
+  height: 1.9rem;
+  text-indent: 5px;
+  width: 36%;
+  right: 53.6%;
+}
+
+.ContactMail .Subject {
+  position: absolute;
+  top: -382%;
+  height: 1.9rem;
+  text-indent: 5px;
+  width: 36%;
+  right: 53.6%;
+}
+
+.ContactMail .message-placeholder {
+  position: absolute;
+  top: -320%;
+  height: 7rem;
+  text-indent: 5px;
+  width: 36%;
+  right: 53.6%;
+}
+
+.message-placeholder::placeholder {
+  position: absolute;
+  top: 13%;
+}
+
+.ContactMail .ContactButton {
+  top: -146%;
+  position: absolute;
+  right: 76.3%;
+}
+
+.ContactMail .send {
+  text-decoration: none;
+  color: red;
+  border: 0.1px solid red;
+  border-radius: 50px;
+  padding: 15px 30px;
+  background-color: white;
+}
+
+.ContactMail .send:hover {
+  background-color: white;
+  color: red;
+}
+
+.Contactmail {
+  display: flex;
+  gap: 20%;
+  background-color: rgba(255, 0, 0, 0.689);
+  height: 8rem;
+  position: relative;
+}
+
+.Contactmail .mailSub {
+  padding-top: 3rem;
+  padding-left: 3rem;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.Contactmail .my-Forms {
+  margin-top: 3rem;
+}
+
+.Contactmail input {
+  width: 20%;
+  position: absolute;
+  right: 20%;
+  height: 2.2rem;
+  text-indent: 5px;
+  background-color: white;
+  border: none;
+}
+
+
+.Contactmail .Contact-button {
+  position: absolute;
+  top: 37.2%;
+  left: 80%;
+  height: 2.2rem;
+  border: none;
+  padding: 7px 20px;
+  background-color: rgba(239, 231, 231, 0.865);
+}
+
+.Contactmail .ContactbuttonLink {
+  text-decoration: none;
+  color: red;
+}
+
+.ContactFooter {
+  display: flex;
+  background-color: rgba(128, 128, 128, 0.397);
+  margin-top: 4rem;
+}
+
+.ContactFooter p {
+  padding-top: 1rem;
+  color: black;
+  font-size: 20px;
+  padding-left: 1rem;
+}
+
+@media screen and (max-width: 428px) {
+
+  .Contactimg {
+    position: relative;
+  }
+  
+  .Contactimg .ContactImg {
+    width: 100%;
+    height: 20rem;
+  }
+  
+  .Contactimg .ContactSermon {
+    position: absolute;
+    top: 24%;
+    color: white;
+    padding-left: 1rem;
+  }
+  
+  .Contactimg .Sermon-Con {
+    position: absolute;
+    top: 35%;
+    font-size: 20px;
+    padding-left: 1rem;
+  }
+  
+  .Contactimg .contactLink {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .Contactimg .contactLink:hover {
+    color: rgba(255, 0, 0, 0.731);
+  }
+
+  .infoCon {
+    position: relative;
+    background-color: rgba(248, 238, 238, 0.984);
+    height: 58rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    width: 104%;
+    right: 11.2%;
+  }
+  
+  .infoCon h2 {
+    position: absolute;
+    top: 9%;
+    padding-left: 0.9rem;
+    font-weight: 550;
+  }
+  
+  .infoCon .Address {
+    padding-left: 0.9rem;
+    position: absolute;
+    top: 18%;
+    line-height: 26px;
+    font-size: 20px;
+    color: gray;
+  }
+  
+  .infoCon .phoneNum {
+    color: gray;
+    position: absolute;
+    top: 26%;
+    padding-left: 0.9rem;
+    font-size: 20px;
+  }
+  
+  .infoCon .ourmail {
+    color: gray;
+    position: absolute;
+    top: 31%;
+    font-size: 20px;
+    padding-left: 0.9rem;
+  }
+  
+  .infoCon .website {
+    color: gray;
+    top: 36%;
+    position: absolute;
+    font-size: 20px;
+    padding-left: 0.9rem;
+  }
+  
+  .ContactMail {
+    display: flex;
+    position: relative;
+    margin-top: -5rem;
+  }
+  
+  .ContactMail .YourName {
+    height: 3.4rem;
+    position: absolute;
+    top: -420%;
+    width: 92%;
+    right: 5%;
+  }
+  
+  .ContactMail .Yourmail {
+    height: 3.4rem;
+    position: absolute;
+    top: -340%;
+    width: 92%;
+    right: 5%;
+  }
+  
+  .ContactMail .Subject {
+    height: 3.4rem;
+    position: absolute;
+    top: -260%;
+    width: 92%;
+    right: 5%;
+  }
+  
+  .ContactMail .message-placeholder {
+    position: absolute;
+    top: -179%;
+    height: 7rem;
+    text-indent: 5px;
+    width: 92%;
+    right: 5%;
+  }
+  
+  input:focus {
+    border: 1px solid black;
+  }
+
+  .message-placeholder::placeholder {
+    top: 18%;
+  }
+  
+  .ContactMail .ContactButton {
+    top: -10%;
+    position: absolute;
+    right: 61%;
+  }
+  
+  .ContactMail .send {
+    text-decoration: none;
+    color: red;
+    border: 0.1px solid red;
+    border-radius: 50px;
+    padding: 15px 25px;
+  }
+  
+  .Contactmail{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 0, 0, 0.628);
+    height: 15rem;
+    position: relative;
+    margin-top: 2rem;
+  }
+  
+  .Contactmail .mailSub  {
+    padding-top: 5rem;
+    padding-left: 1rem;
+    font-size: 20px;
+  }
+  
+  .Contactmail .my-Forms{
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  
+  .Contactmail input {
+    width: 55%;
+    position: absolute;
+    top: 60%;
+    right: 40%;
+    height: 2.2rem;
+    text-indent: 5px;
+    background-color: white;
+    border: none;
+  }
+
+  .Contactmail .Contact-button {
+    position: absolute;
+    top: 60%;
+    left: 59.8%;
+    height: 2.2rem;
+    border: none;
+    padding: 7px 20px;
+    background-color: rgba(239, 231, 231, 0.865);
+}
+
+.Contactmail .ContactbuttonLink {
+    text-decoration: none;
+    color: red;
+    font-size: 15px;
+}
+
+  
+  .ContactFooter {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.308);
+    margin-top: 2rem;
+  }
+  
+  .ContactFooter p {
+    padding-top: 1rem;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (width: 390px) {
+  .infoCon {
+    position: relative;
+    background-color: rgba(248, 238, 238, 0.984);
+    height: 58rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    width: 104%;
+    right: 11.2%;
+  }
+  
+  .ContactMail {
+    display: flex;
+    position: relative;
+    margin-top: -4rem;
+  }
+  
+  .ContactMail .YourName {
+    height: 3.4rem;
+    position: absolute;
+    top: -420%;
+    width: 92%;
+    right: 5%;
+  }
+  
+  .ContactMail .Yourmail {
+    height: 3.4rem;
+    position: absolute;
+    top: -341%;
+    width: 92%;
+    right: 5%;
+  }
+  
+  .ContactMail .Subject {
+    height: 3.4rem;
+    position: absolute;
+    top: -260%;
+    width: 92%;
+    right: 5%;
+  }
+  
+  .ContactMail .message {
+    height: 7rem;
+    position: absolute;
+    top: -180%;
+    width: 92%;
+    right: 5%;
+  }
+  
+  .ContactMail .ContactButton {
+    top: -14%;
+    position: absolute;
+    right: 58%;
+  }
+  
+  /* .ContactMail .send {
+    text-decoration: none;
+    color: red;
+    border: 0.1px solid red;
+    border-radius: 50px;
+    padding: 15px 25px;
+  } */
+  
+  .ContactMail input 
+  .Contactmail{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 0, 0, 0.628);
+    height: 15rem;
+    position: relative;
+    margin-top: 2rem;
+  }
+  
+  .Contactmail .mailSub  {
+    padding-top: 5rem;
+    padding-left: 1rem;
+    font-size: 20px;
+  }
+  
+  .Contactmail .my-Forms{
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  
+  .Contactmail input {
+    width: 55%;
+    position: absolute;
+    top: 60%;
+    right: 40%;
+    height: 2.2rem;
+    text-indent: 5px;
+    background-color: white;
+    border: none;
+  }
+
+  .Contactmail .Contact-button {
+    position: absolute;
+    top: 60%;
+    left: 59.8%;
+    height: 2.2rem;
+    border: none;
+    padding: 7px 20px;
+    background-color: rgba(239, 231, 231, 0.865);
+}
+
+.Contactmail .ContactbuttonLink {
+    text-decoration: none;
+    color: red;
+    font-size: 15px;
+}
+
+  
+  .ContactFooter {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.308);
+    margin-top: 2rem;
+  }
+  
+  .ContactFooter p {
+    padding-top: 1rem;
+    font-size: 20px;
+    text-align: center;
+  }
+}
